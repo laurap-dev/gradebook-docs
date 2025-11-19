@@ -18,7 +18,7 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 # Footer content
-footer_content: "Copyright &copy; 2024 GradeBook. Distributed under the MIT License."
+footer_content: "Copyright &copy; {{ site.time | date: '%Y' }} GradeBook. All rights reserved."
 
 # Color scheme
 color_scheme: light
