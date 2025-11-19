@@ -218,3 +218,5 @@ This documentation is part of the GradeBook project. See main repository LICENSE
 ---
 
 **Built with** [Jekyll](https://jekyllrb.com/) and [Just the Docs](https://github.com/just-the-docs/just-the-docs)
+
+*Test sync trigger - ignore this line*
