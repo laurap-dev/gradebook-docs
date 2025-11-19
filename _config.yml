@@ -3,8 +3,8 @@ title: GradeBook Documentation
 description: Comprehensive user guide for the GradeBook Google Sheets Add-on
 remote_theme: just-the-docs/just-the-docs
 
-url: https://laurap-dev.github.io
-baseurl: /gradebook-docs
+url: https://gradebook.docs.gdev.app
+baseurl: ""
 
 # Enable auxiliary links
 aux_links:
