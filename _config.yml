@@ -21,9 +21,6 @@ aux_links:
 back_to_top: true
 back_to_top_text: "Back to top"
 
-# Footer content
-footer_content: "Copyright &copy; 2025 GradeBook. All rights reserved."
-
 # Color scheme
 color_scheme: light
 
