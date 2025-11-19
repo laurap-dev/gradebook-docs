@@ -62,3 +62,7 @@ callouts:
 plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
+
+# Just the Docs specific settings
+just_the_docs:
+  hide_attribution: true
