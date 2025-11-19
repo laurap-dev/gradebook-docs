@@ -1,10 +1,10 @@
 # Just the Docs theme configuration
 title: GradeBook Documentation
 description: Comprehensive user guide for the GradeBook Google Sheets Add-on
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 url: https://laurap-dev.github.io
-baseurl: /gradebook
+baseurl: /gradebook-docs
 
 # Enable auxiliary links
 aux_links:
@@ -61,3 +61,4 @@ callouts:
 # Plugins
 plugins:
   - jekyll-seo-tag
+  - jekyll-remote-theme
