@@ -1,0 +1,63 @@
+# Just the Docs theme configuration
+title: GradeBook Documentation
+description: Comprehensive user guide for the GradeBook Google Sheets Add-on
+theme: just-the-docs
+
+url: https://laurap-dev.github.io
+baseurl: /gradebook
+
+# Enable auxiliary links
+aux_links:
+  "GradeBook on GitHub":
+    - "https://github.com/laurap-dev/gradebook"
+  "Google Workspace Marketplace":
+    - "#"
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Footer content
+footer_content: "Copyright &copy; 2024 GradeBook. Distributed under the MIT License."
+
+# Color scheme
+color_scheme: light
+
+# Enable search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Heading anchor links
+heading_anchors: true
+
+# Aux links open in new tab
+aux_links_new_tab: true
+
+# Enable callouts
+callouts_level: loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
