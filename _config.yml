@@ -1,61 +1,16 @@
-# Just the Docs theme configuration
+# Beautiful Jekyll theme configuration
+remote_theme: daattali/beautiful-jekyll
+
 title: GradeBook Documentation
+author: Gdev Apps
 description: Comprehensive user guide for the GradeBook Google Sheets Add-on
-remote_theme: just-the-docs/just-the-docs
 
 url: https://gradebook.docs.gdev.app
-baseurl: ""
 
-# Enable auxiliary links
-aux_links:
-  "Gdev Apps":
-    - "https://gdev.app/"
-  "Google Workspace Marketplace":
-    - "https://workspace.google.com/marketplace/app/gradebook/292160741496"
+# Social links (optional)
+social-network-links:
+  github: laurap-dev/gradebook
 
-# Back to top link
-back_to_top: true
-back_to_top_text: "Back to top"
-
-# Color scheme
-color_scheme: light
-
-# Enable search
-search_enabled: true
-search:
-  heading_level: 2
-  previews: 3
-  preview_words_before: 5
-  preview_words_after: 10
-  tokenizer_separator: /[\s/]+/
-  rel_url: true
-  button: false
-
-# Heading anchor links
-heading_anchors: true
-
-# Aux links open in new tab
-aux_links_new_tab: true
-
-# Enable callouts
-callouts_level: loud
-callouts:
-  highlight:
-    color: yellow
-  important:
-    title: Important
-    color: blue
-  new:
-    title: New
-    color: green
-  note:
-    title: Note
-    color: purple
-  warning:
-    title: Warning
-    color: red
-
-# Plugins
-plugins:
-  - jekyll-seo-tag
-  - jekyll-remote-theme
+# Build settings
+markdown: kramdown
+highlighter: rouge
