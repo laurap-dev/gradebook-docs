@@ -6,10 +6,6 @@ remote_theme: just-the-docs/just-the-docs
 url: https://gradebook.docs.gdev.app
 baseurl: ""
 
-# Just the Docs options
-just_the_docs:
-  hide_attribution: true
-
 # Enable auxiliary links
 aux_links:
   "Gdev Apps":
