@@ -7,7 +7,8 @@ url: https://gradebook.docs.gdev.app
 baseurl: ""
 
 # Just the Docs options
-just_the_docs_hide_attribution: true
+just_the_docs:
+  hide_attribution: true
 
 # Enable auxiliary links
 aux_links:
