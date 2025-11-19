@@ -8,10 +8,10 @@ baseurl: ""
 
 # Enable auxiliary links
 aux_links:
-  "GradeBook on GitHub":
-    - "https://github.com/laurap-dev/gradebook"
+  "Gdev Apps":
+    - "https://gdev.app/"
   "Google Workspace Marketplace":
-    - "#"
+    - "https://workspace.google.com/marketplace/app/gradebook/292160741496"
 
 # Back to top link
 back_to_top: true
