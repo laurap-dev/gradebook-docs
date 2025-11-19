@@ -7,12 +7,14 @@ description: Comprehensive user guide for the GradeBook Google Sheets Add-on
 url: https://gradebook.docs.gdev.app
 baseurl: ""
 
+# Just the Docs options
+just_the_docs:
+  hide_attribution: true
+
 # Enable auxiliary links
 aux_links:
-  "Gdev Apps":
-    - "https://gdev.app/"
-  "Google Workspace Marketplace":
-    - "https://workspace.google.com/marketplace/app/gradebook/292160741496"
+  "Gdev Apps": https://gdev.app/
+  "Google Workspace Marketplace": https://workspace.google.com/marketplace/app/gradebook/292160741496
 
 # Back to top link
 back_to_top: true
