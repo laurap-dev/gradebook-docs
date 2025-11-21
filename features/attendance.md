@@ -3,27 +3,27 @@ layout: default
 title: Attendance
 parent: Features
 nav_order: 4
-description: "Track student attendance and participation"
+description: "Track student attendance"
 ---
 
 # Attendance
 
-The Attendance feature allows you to track student attendance directly in your gradebook, making it easy to monitor participation and include attendance in student reports.
+The Attendance feature allows you to track student attendance directly in your GradeBook, making it easy to monitor attendance patterns and include attendance in student reports.
 
 ## Requirements
 
 - **Valid License**: ✅ Required
-- **Must be GradeBook**: ✅ Required
-- **Premium**: ❌ Not required
+- **Premium License**: ❌ Not required
+- **Must be using a GradeBook**: ✅ Required
+
 
 ## Overview
 
 Track and manage:
-- Daily attendance (present, absent, tardy)
+- Daily attendance
 - Attendance patterns and trends
-- Attendance percentages
 - Include attendance data in reports
-- Export attendance records
+
 
 ## Accessing the Feature
 

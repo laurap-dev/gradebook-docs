@@ -3,22 +3,23 @@ layout: default
 title: Copy GradeBook
 parent: Features
 nav_order: 11
-description: "Duplicate gradebooks for new terms or sections"
+description: "Duplicate a GradeBook for new terms or sections"
 ---
 
 # Copy GradeBook
 
-The Copy GradeBook feature creates a duplicate of your existing gradebook, making it easy to start a new term, section, or grading period with the same structure.
+The Copy GradeBook feature creates a duplicate of your existing GradeBook, making it easy to start a new term, section, or grading period with the same structure.
 
 ## Requirements
 
 - **Valid License**: ✅ Required
-- **Must be GradeBook**: ✅ Required
-- **Premium**: ❌ Not required
+- **Premium License**: ❌ Not required
+- **Must be using a GradeBook**: ✅ Required
+
 
 ## Overview
 
-Copy GradeBook creates a new gradebook with:
+Copy GradeBook creates a new GradeBook with:
 - Same structure and settings
 - Same assignments (optional)
 - Same students (optional)
@@ -68,8 +69,8 @@ Try different calculation method:
 
 Select what elements to include in the copy:
 
-**Gradebook Structure** (always copied)
-- Gradebook type (Standard, Category, Total Points)
+**GradeBook Structure** (always copied)
+- GradeBook type (Standard, Category, Total Points)
 - Maximum assignments
 - Column structure
 - Protected ranges

@@ -3,12 +3,12 @@ layout: default
 title: Create & View GradeBooks
 parent: Features
 nav_order: 1
-description: "Learn how to create new gradebooks and access existing ones"
+description: "Learn how to create new GradeBooks and access existing ones"
 ---
 
 # Create & View GradeBooks
 
-The Create & View GradeBooks feature is your starting point for managing gradebooks. Use it to create new gradebooks with customized settings or quickly access your recently created gradebooks.
+The Create & View GradeBooks feature is your starting point for managing GradeBooks. Use it to create new GradeBooks with customized settings or quickly access your recently created GradeBooks.
 
 ## Requirements
 
