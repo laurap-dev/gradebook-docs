@@ -267,7 +267,7 @@ Apply changes to multiple elements:
 Create a view that:
 - Shows only the current assignment being graded
 - Sorts students by submission order
-- Displays student IDs or emails for verification
+- Displays student ID's or emails for verification
 
 ### For Parent Conferences
 
