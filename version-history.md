@@ -7,6 +7,8 @@ description: "GradeBook version history and release notes"
 
 # Version History
 
+<!-- LATEST_VERSION: 6.00 -->
+
 GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ---
@@ -345,7 +347,7 @@ Latest release with documentation updates.
 ### Version 4.30–4.31
 **Released: December 4, 2024**
 
-- Added menu item: Extensions → GradeBook → Obfuscate GradeBook
+- Added menu item: Extensions → GradeBook → Support → Send Obfuscated GradeBook
 - Allows sending an obfuscated copy of a user's GradeBook to ensure security and privacy with student data
 
 ---

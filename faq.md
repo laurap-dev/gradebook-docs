@@ -48,15 +48,24 @@ Yes! GradeBook offers a free trial period (14 days) with full access to standard
 
 ## Installation and Setup
 
+### How do I check if I have the latest version?
+
+1. Open your GradeBook spreadsheet
+2. Go to **Extensions → GradeBook → Support → Customer Support & Subscription Details**
+3. Look for the message: "You have the latest version!"
+
+If you don't see this message, the latest version should install automatically within a couple of hours. Check back later.
+
 ### GradeBook menu doesn't appear
 
 **Try these solutions:**
-1. Refresh the Google Sheets page
-2. Close and reopen the spreadsheet
-3. Check Extensions menu (not Add-ons)
-4. Clear browser cache
-5. Try a different browser
-6. Reinstall the add-on
+1. Follow the [Activate Guide](https://gdev.app/activate-guide/) to show the full menu
+2. Refresh the Google Sheets page
+3. Close and reopen the spreadsheet
+4. Check Extensions menu (not Add-ons)
+5. Clear browser cache
+6. Try a different browser
+7. [Reinstall GradeBook](https://workspace.google.com/marketplace/app/gradebook/292160741496) (your GradeBooks and settings will not be affected)
 
 ### Permission errors during installation
 
@@ -70,6 +79,24 @@ Yes! GradeBook offers a free trial period (14 days) with full access to standard
 - Review and accept all permissions
 - Allow pop-ups for sheets.google.com
 - Try in incognito/private mode
+
+### Authorization errors
+
+This sometimes happens when you are logged into multiple Google accounts. Try the following:
+
+1. Use Google Chrome (preferred browser)
+2. Log out of all your Google accounts
+3. Clear your browser cache
+4. Log back in only with the email you use GradeBook with
+5. If the issue persists, [uninstall and reinstall GradeBook](https://workspace.google.com/marketplace/app/gradebook/292160741496)
+
+Reinstalling should fix authorization errors. Your GradeBooks and settings will not be affected.
+
+### Can't import from Google Classroom
+
+Try [uninstalling GradeBook](https://workspace.google.com/marketplace/app/gradebook/292160741496) and then reinstalling. This will prompt you for a new authorization. Once installed, you should be able to import from Classroom.
+
+You will not lose any of your GradeBook data.
 
 ### Can I use GradeBook on mobile?
 
@@ -106,7 +133,7 @@ No. Gradebook type (Standard, Category, Total Points) is set at creation and can
 Three ways:
 1. **Import from Google Classroom** (recommended): Extensions → GradeBook → Import & Attendance → Import from Google Classroom
 2. **Manually**: Type names directly in student name column
-3. **CSV Import** (Premium): Extensions → GradeBook → Import & Attendance → Import from CSV
+3. **CSV Import** (Premium): Extensions → GradeBook → Import & Attendance → Import from Google Classroom CSV
 
 ### How do I add assignments?
 
@@ -116,18 +143,6 @@ Three ways:
 4. Configure settings in Views and Sorting if needed
 
 Or import assignments from Google Classroom.
-
-### Can I delete students or assignments?
-
-**Students**: Yes, but be careful
-- Deleting students removes all their data
-- Consider hiding instead if they may return
-
-**Assignments**: Yes
-- Deleting columns removes assignment data
-- Creates potential formula issues
-- Use Hide feature instead when possible
-- Use [Fix Grades](features/fix-grades.md) if needed after deletion
 
 ## Google Classroom Integration
 
@@ -142,7 +157,6 @@ Or import assignments from Google Classroom.
 - Re-authorize GradeBook for Classroom
 - Verify you're teacher (not co-teacher or student)
 - Check with Google Workspace admin
-- Try using CSV import instead
 
 ### Imported grades don't match Classroom
 
@@ -169,46 +183,37 @@ More frequent imports reduce chance of conflicts.
 
 ## Grading and Calculations
 
+### How do I fix broken grades or formulas?
+
+Go to **Extensions → GradeBook → Utilities → Fix Grades**. You can use either option:
+- **Quick Fix**: Repairs common formula issues
+- **Full Grade Makeover**: Complete recalculation of all grades (use this for persistent problems)
+
 ### Overall grade seems wrong
 
 **Troubleshooting steps:**
 1. Check gradebook type matches your intent
-2. Verify weights add to 100% (if using weights)
+2. Verify category weights add to 100% (if using weights)
 3. Use [Fix Grades](features/fix-grades.md) to check formulas
-4. Manually calculate one student to verify
-5. Check for broken formulas (#REF!, #DIV/0!)
+4. Check for broken formulas (#REF!, #DIV/0!)
 
-### How do I handle extra credit?
 
-**Method 1**: Create extra credit assignment
-- Don't include in maximum possible points
-- Add to numerator only
-
-**Method 2**: Award points above maximum
-- Student can earn >100% on assignment
-- Boosts overall grade
-
-**Method 3**: Separate extra credit category
-- Weight appropriately
-- Clearly identified
-
-### Can I drop lowest grades?
-
-Not automatically built-in, but possible:
-- Manually exclude lowest grades
-- Use formula customization (advanced)
-- Track separately and adjust final grade
-- Consider category weighting to minimize impact
 
 ### How do I excuse an assignment?
 
-Methods:
-1. Leave cell blank (won't count against student)
-2. Enter "E" or "Excused" (custom setup needed)
-3. Enter full points with note
-4. Use conditional formula (advanced)
+Leave the grade cell blank. Blank cells are not counted against the student's grade.
 
 ## Reports
+
+### What are Gmail's email sending limits?
+
+Gmail has daily sending limits that reset on a rolling 24-hour basis. These limits are set by Google—GradeBook doesn't have control over them.
+
+To check how many emails you have left:
+1. Go to **Extensions → GradeBook → Support → Customer Support & Subscription Details**
+2. Your remaining daily email quota will be displayed
+
+If you've hit your limit, wait 24 hours for it to reset.
 
 ### Generated reports are blank
 
@@ -254,23 +259,8 @@ Methods:
 **Premium License:**
 - Add custom logos
 - Apply color schemes
-- Advanced formatting options
 
 ## Technical Issues
-
-### GradeBook is slow or unresponsive
-
-**Common causes:**
-- Large gradebook (many students/assignments)
-- Too many conditional formatting rules
-- Browser performance issues
-
-**Solutions:**
-- Reduce visible columns (hide unused)
-- Limit conditional formatting
-- Close other tabs
-- Use Chrome for best performance
-- Split very large classes
 
 ### Formulas are broken (#REF! errors)
 
@@ -290,7 +280,7 @@ Methods:
 **Recovery options:**
 1. **File → Version History**: Restore previous version
 2. **Check Google Drive Trash**: Recover deleted files
-3. **Contact Support**: May be able to assist
+3. **Contact Support**: Send an obfuscated GradeBook for assistance
 
 **Prevention:**
 - Regular backups (File → Make a Copy)
@@ -315,10 +305,10 @@ Methods:
 
 Yes. GradeBook:
 - Uses Google's secure infrastructure
-- Encrypts data in transit
-- Follows Google's privacy policies
-- FERPA compliant when used properly
+- Data remains in your Google Drive
 - Never shares student data with third parties
+
+For full details, see our [Privacy Policy](https://gdev.app/privacy-policy/).
 
 ### Who can see my gradebooks?
 
@@ -344,41 +334,34 @@ Only people you share with:
 
 ## Billing and Subscriptions
 
+### How do I change my license email address?
+
+If you have an account with [Gdev Apps](https://gdev.app/), you can change your license email address by visiting: [Change License](https://gdev.app/change-license/)
+
 ### How do I upgrade to Premium?
 
 1. Visit the [GradeBook purchase page](https://gdev.app/product-page/gradebook-for-google-sheets-and-classroom/)
 2. Select your desired plan (Premium or Premium Plus)
 3. Complete purchase
 4. Your license will activate automatically
-4. Premium features activate immediately
 
 ### My license expired. What happens?
 
-**Immediately:**
+When your license expires:
 - Most features become disabled
-- Can still access Support
+- You can still access the Support menu
+- Your GradeBooks remain in Google Drive
+- Your data is preserved
 
-**Grace period** (varies):
-- May have limited access for short time
-- Renew to restore full access
-
-**Long term:**
-- Gradebooks remain in Drive
-- Data preserved but not editable via GradeBook
+Renew your license to restore full access.
 
 ### Can I get a refund?
 
-Refund policies vary by purchase method:
-- Google Workspace Marketplace: Follow their policies
-- Direct purchase: Contact support
-- Usually 30-day window
+See our [Refund Policy](https://gdev.app/refund-policy/) for details.
 
 ### Educational discounts available?
 
-Yes! Contact support with:
-- School email address
-- School name and district
-- Verification may be required
+Yes! Contact support with your school email address and school/district name.
 
 ## Still Need Help?
 
@@ -388,6 +371,16 @@ Yes! Contact support with:
 - **Customer Support**: Extensions → GradeBook → Support
 - **Send Diagnostics**: Use [Send Obfuscated GradeBook](features/obfuscate.md) for technical issues
 - **Feature Requests**: Submit via Support feature
+
+### How do I send diagnostic data to support?
+
+If you're experiencing a technical issue, you can share your GradeBook with the support team:
+
+1. Open your GradeBook spreadsheet
+2. Go to **Extensions → GradeBook → Support → Send Obfuscated GradeBook**
+3. This sends a privacy-protected copy with student data replaced
+
+This helps the support team identify issues more effectively while keeping student information private.
 
 ### Before Contacting Support
 
@@ -400,9 +393,7 @@ Please:
 
 ### Response Times
 
-- **Standard Support**: 24-48 hours
-- **Premium Support**: 12-24 hours
-- **Critical Issues**: Prioritized
+We aim to respond to support requests within 24-48 hours.
 
 ---
 
