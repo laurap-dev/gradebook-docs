@@ -13,7 +13,7 @@ Common questions and answers about GradeBook. Can't find what you're looking for
 
 ### How do I install GradeBook?
 
-1. Visit the [Google Workspace Marketplace GradeBook page](https://workspace.google.com/marketplace/app/gradebook/292160741496)
+1. Visit the [Google Workspace Marketplace GradeBook page](https://workspace.google.com/marketplace/app/gradebook/292160741496){:target="_blank"}
 2. Click Install
 4. Grant required permissions
 5. Open Google Sheets and access from Extensions menu
@@ -22,7 +22,7 @@ See the [Getting Started Guide](getting-started.md) for detailed instructions.
 
 ### Do I need a license?
 
-Most features require a valid license which can be [purchased from Gdev Apps](https://gdev.app/product-page/gradebook-for-google-sheets-and-classroom/). 
+Most features require a valid license which can be [purchased from Gdev Apps](https://gdev.app/product-page/gradebook-for-google-sheets-and-classroom/){:target="_blank"}. 
 
 ### What's the difference between Standard and Premium?
 
@@ -44,7 +44,7 @@ See [Features](features/index.md) for complete comparison.
 
 ### Can I try before buying?
 
-Yes! GradeBook offers a free trial period (14 days) with full access to standard features. [Install from the Marketplace](https://workspace.google.com/marketplace/app/gradebook/292160741496) to start your trial.
+Yes! GradeBook offers a free trial period (14 days) with full access to standard features. [Install from the Marketplace](https://workspace.google.com/marketplace/app/gradebook/292160741496){:target="_blank"} to start your trial.
 
 ## Installation and Setup
 
@@ -59,13 +59,13 @@ If you don't see this message, the latest version should install automatically w
 ### GradeBook menu doesn't appear
 
 **Try these solutions:**
-1. Follow the [Activate Guide](https://gdev.app/activate-guide/) to show the full menu
+1. Follow the [Activate Guide](https://gdev.app/activate-guide/){:target="_blank"} to show the full menu
 2. Refresh the Google Sheets page
 3. Close and reopen the spreadsheet
 4. Check Extensions menu (not Add-ons)
 5. Clear browser cache
 6. Try a different browser
-7. [Reinstall GradeBook](https://workspace.google.com/marketplace/app/gradebook/292160741496) (your GradeBooks and settings will not be affected)
+7. [Reinstall GradeBook](https://workspace.google.com/marketplace/app/gradebook/292160741496){:target="_blank"} (your GradeBooks and settings will not be affected)
 
 ### Permission errors during installation
 
@@ -88,13 +88,13 @@ This sometimes happens when you are logged into multiple Google accounts. Try th
 2. Log out of all your Google accounts
 3. Clear your browser cache
 4. Log back in only with the email you use GradeBook with
-5. If the issue persists, [uninstall and reinstall GradeBook](https://workspace.google.com/marketplace/app/gradebook/292160741496)
+5. If the issue persists, [uninstall and reinstall GradeBook](https://workspace.google.com/marketplace/app/gradebook/292160741496){:target="_blank"}
 
 Reinstalling should fix authorization errors. Your GradeBooks and settings will not be affected.
 
 ### Can't import from Google Classroom
 
-Try [uninstalling GradeBook](https://workspace.google.com/marketplace/app/gradebook/292160741496) and then reinstalling. This will prompt you for a new authorization. Once installed, you should be able to import from Classroom.
+Try [uninstalling GradeBook](https://workspace.google.com/marketplace/app/gradebook/292160741496){:target="_blank"} and then reinstalling. This will prompt you for a new authorization. Once installed, you should be able to import from Classroom.
 
 You will not lose any of your GradeBook data.
 
@@ -308,7 +308,7 @@ Yes. GradeBook:
 - Data remains in your Google Drive
 - Never shares student data with third parties
 
-For full details, see our [Privacy Policy](https://gdev.app/privacy-policy/).
+For full details, see our [Privacy Policy](https://gdev.app/privacy-policy/){:target="_blank"}.
 
 ### Who can see my gradebooks?
 
@@ -336,11 +336,11 @@ Only people you share with:
 
 ### How do I change my license email address?
 
-If you have an account with [Gdev Apps](https://gdev.app/), you can change your license email address by visiting: [Change License](https://gdev.app/change-license/)
+If you have an account with [Gdev Apps](https://gdev.app/){:target="_blank"}, you can change your license email address by visiting: [Change License](https://gdev.app/change-license/){:target="_blank"}
 
 ### How do I upgrade to Premium?
 
-1. Visit the [GradeBook purchase page](https://gdev.app/product-page/gradebook-for-google-sheets-and-classroom/)
+1. Visit the [GradeBook purchase page](https://gdev.app/product-page/gradebook-for-google-sheets-and-classroom/){:target="_blank"}
 2. Select your desired plan (Premium or Premium Plus)
 3. Complete purchase
 4. Your license will activate automatically
@@ -357,7 +357,7 @@ Renew your license to restore full access.
 
 ### Can I get a refund?
 
-See our [Refund Policy](https://gdev.app/refund-policy/) for details.
+See our [Refund Policy](https://gdev.app/refund-policy/){:target="_blank"} for details.
 
 ### Educational discounts available?
 

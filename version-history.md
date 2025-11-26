@@ -150,7 +150,7 @@ Latest release with documentation updates.
 ### Version 5.07–5.10
 **Released: February 14, 2025**
 
-- Menu fix (see [Activate Guide](https://gdev.app/activate-guide/))
+- Menu fix (see [Activate Guide](https://gdev.app/activate-guide/){:target="_blank"})
 - Classroom import fix
 
 ---
@@ -1320,4 +1320,4 @@ Latest release with documentation updates.
 ---
 
 {: .note }
-> GradeBook has been helping educators manage grades since 2015. [Install GradeBook](https://workspace.google.com/marketplace/app/gradebook/292160741496) to get started!
+> GradeBook has been helping educators manage grades since 2015. [Install GradeBook](https://workspace.google.com/marketplace/app/gradebook/292160741496){:target="_blank"} to get started!

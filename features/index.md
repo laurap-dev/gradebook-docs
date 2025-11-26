@@ -44,7 +44,7 @@ These features require a premium subscription:
 - **[Performance Colours](performance-colours.md)**: Customize color schemes based on grade performance
 
 {: .note }
-> Premium features require both a valid license and an active premium subscription. [Purchase or upgrade at Gdev Apps](https://gdev.app/product-page/gradebook-for-google-sheets-and-classroom/).
+> Premium features require both a valid license and an active premium subscription. [Purchase or upgrade at Gdev Apps](https://gdev.app/product-page/gradebook-for-google-sheets-and-classroom/){:target="_blank"}.
 
 ## Feature Requirements
 
@@ -52,7 +52,7 @@ Most GradeBook features have specific requirements:
 
 | Requirement | Description |
 |:------------|:------------|
-| Valid License | A license key [purchased from Gdev Apps](https://gdev.app/product-page/gradebook-for-google-sheets-and-classroom/) |
+| Valid License | A license key [purchased from Gdev Apps](https://gdev.app/product-page/gradebook-for-google-sheets-and-classroom/){:target="_blank"} |
 | Must be GradeBook | The spreadsheet must be a properly formatted GradeBook |
 | Premium Subscription | An active premium subscription for enhanced features |
 

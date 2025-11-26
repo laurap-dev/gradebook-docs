@@ -11,7 +11,7 @@ permalink: /
 GradeBook is a comprehensive Google Sheets Add-on that transforms your spreadsheet into a powerful grade management system. Whether you're a teacher managing a single class or an administrator overseeing multiple courses, GradeBook provides the tools you need to efficiently track student progress, generate reports, and integrate with Google Classroom.
 
 {: .important }
-> GradeBook is available on the [Google Workspace Marketplace](https://workspace.google.com/marketplace/app/gradebook/292160741496). A valid license is required for most features.
+> GradeBook is available on the [Google Workspace Marketplace](https://workspace.google.com/marketplace/app/gradebook/292160741496){:target="_blank"}. A valid license is required for most features.
 
 ## What is GradeBook?
 
@@ -59,7 +59,7 @@ To use GradeBook, you need:
 
 - A Google Workspace or personal Google account
 - Access to Google Sheets
-- A valid GradeBook license (available via [Google Workspace Marketplace](https://workspace.google.com/marketplace/app/gradebook/292160741496))
+- A valid GradeBook license (available via [Google Workspace Marketplace](https://workspace.google.com/marketplace/app/gradebook/292160741496){:target="_blank"})
 - For Google Classroom features: An active Google Classroom account with teaching access
 
 ## Premium Features
@@ -77,7 +77,7 @@ GradeBook offers premium features for enhanced functionality:
 
 Ready to begin? Follow these steps:
 
-1. **[Install GradeBook](https://workspace.google.com/marketplace/app/gradebook/292160741496)** from the Google Workspace Marketplace
+1. **[Install GradeBook](https://workspace.google.com/marketplace/app/gradebook/292160741496){:target="_blank"}** from the Google Workspace Marketplace
 2. **Open Google Sheets** and create a new spreadsheet
 3. **Access the GradeBook menu** from the Extensions menu
 4. **Create your first gradebook** using the "Create & View GradeBooks" option

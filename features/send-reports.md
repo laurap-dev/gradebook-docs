@@ -51,7 +51,7 @@ Shows counts of:
 Displays your sending quotas:
 - **User Email**: Your Google account email
 - **Daily Emails Remaining**: Number of emails you can still send today (resets after 24 hours)
-- **Text Messages Remaining**: SMS credits available ([purchase more at Gdev Apps](https://gdev.app/))
+- **Text Messages Remaining**: SMS credits available ([purchase more at Gdev Apps](https://gdev.app/){:target="_blank"})
 
 ### Send Options
 

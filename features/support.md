@@ -38,7 +38,7 @@ Displays your current subscription status:
 
 ### Upgrade Options
 
-Options to upgrade your subscription. [Purchase or upgrade at Gdev Apps](https://gdev.app/product-page/gradebook-for-google-sheets-and-classroom/).
+Options to upgrade your subscription. [Purchase or upgrade at Gdev Apps](https://gdev.app/product-page/gradebook-for-google-sheets-and-classroom/){:target="_blank"}.
 
 - **Upgrade to Premium**: Access Performance Colours, Google Classroom import, and more
 - **Upgrade to Premium Plus**: All Premium features plus automatic report sending and custom report logos

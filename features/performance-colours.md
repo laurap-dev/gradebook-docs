@@ -17,7 +17,7 @@ Assign custom colors to different grade ranges so you can quickly see how studen
 - **Premium**: ✅ Required
 
 {: .note }
-> This is a **Premium Feature**. Requires an active premium subscription. [Purchase at Gdev Apps](https://gdev.app/product-page/gradebook-for-google-sheets-and-classroom/).
+> This is a **Premium Feature**. Requires an active premium subscription. [Purchase at Gdev Apps](https://gdev.app/product-page/gradebook-for-google-sheets-and-classroom/){:target="_blank"}.
 
 ## Accessing the Feature
 
