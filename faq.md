@@ -13,9 +13,8 @@ Common questions and answers about GradeBook. Can't find what you're looking for
 
 ### How do I install GradeBook?
 
-1. Visit the Google Workspace Marketplace
-2. Search for "GradeBook"
-3. Click Install
+1. Visit the [Google Workspace Marketplace GradeBook page](https://workspace.google.com/marketplace/app/gradebook/292160741496)
+2. Click Install
 4. Grant required permissions
 5. Open Google Sheets and access from Extensions menu
 
@@ -23,7 +22,7 @@ See the [Getting Started Guide](getting-started.md) for detailed instructions.
 
 ### Do I need a license?
 
-Most features require a valid license from the Google Workspace Marketplace. The Support feature is available without a license. A free trial is typically available.
+Most features require a valid license which can be [purchased from Gdev Apps](https://gdev.app/product-page/gradebook-for-google-sheets-and-classroom/). 
 
 ### What's the difference between Standard and Premium?
 
@@ -32,9 +31,10 @@ Most features require a valid license from the Google Workspace Marketplace. The
 - Google Classroom import
 - Report generation and sending
 - Attendance tracking
-- Unlimited gradebooks
+- Unlimited GradeBooks
 
 **Premium License** adds:
+- automation features (daily imports, scheduled reports)
 - CSV import capabilities
 - Custom report logos
 - Performance color schemes
@@ -44,7 +44,7 @@ See [Features](features/index.md) for complete comparison.
 
 ### Can I try before buying?
 
-Yes! GradeBook typically offers a free trial period (14-30 days) with full access to standard features. Install from the Marketplace to start your trial.
+Yes! GradeBook offers a free trial period (14 days) with full access to standard features. [Install from the Marketplace](https://workspace.google.com/marketplace/app/gradebook/292160741496) to start your trial.
 
 ## Installation and Setup
 
@@ -346,9 +346,10 @@ Only people you share with:
 
 ### How do I upgrade to Premium?
 
-1. Extensions → GradeBook → Support
-2. Click "Upgrade to Premium"
+1. Visit the [GradeBook purchase page](https://gdev.app/product-page/gradebook-for-google-sheets-and-classroom/)
+2. Select your desired plan (Premium or Premium Plus)
 3. Complete purchase
+4. Your license will activate automatically
 4. Premium features activate immediately
 
 ### My license expired. What happens?

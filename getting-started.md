@@ -13,8 +13,7 @@ This guide will walk you through installing GradeBook, creating your first grade
 
 ### Step 1: Install from Google Workspace Marketplace
 
-1. Visit the [Google Workspace Marketplace](#) (link to be updated)
-2. Search for "GradeBook"
+1. Visit the [Google Workspace Marketplace GradeBook page](https://workspace.google.com/marketplace/app/gradebook/292160741496)
 3. Click **Install**
 4. Review the permissions required:
    - Access to your Google Sheets

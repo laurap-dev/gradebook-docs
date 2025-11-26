@@ -8,14 +8,14 @@ description: "Comprehensive guides for all GradeBook features"
 
 # GradeBook Features
 
-This section provides detailed documentation for each feature available in GradeBook. Each page includes step-by-step instructions, screenshots, and tips for getting the most out of the feature.
+This section provides detailed documentation for each feature available in GradeBook. Each page includes step-by-step instructions and tips for getting the most out of the feature.
 
 ## Core Features
 
 These features are available with a standard GradeBook license:
 
-### Gradebook Management
-- **[Create & View GradeBooks](create-gradebooks.md)**: Set up new gradebooks and access existing ones
+### GradeBook Management
+- **[Create & View GradeBooks](create-gradebooks.md)**: Set up new GradeBooks and access existing ones
 - **[Views and Sorting](views-sorting.md)**: Customize how grades are displayed and organized
 
 ### Import & Attendance
@@ -29,7 +29,7 @@ These features are available with a standard GradeBook license:
 ### Utilities
 - **[Reset Options](reset-options.md)**: Reset configuration settings to defaults
 - **[Fix Grades](fix-grades.md)**: Repair broken formulas and recalculate grades
-- **[Copy GradeBook](copy-gradebook.md)**: Duplicate gradebooks for new terms or sections
+- **[Copy GradeBook](copy-gradebook.md)**: Duplicate GradeBooks for new terms or sections
 
 ### Support
 - **[Customer Support](support.md)**: Access subscription details and customer support
@@ -44,7 +44,7 @@ These features require a premium subscription:
 - **[Performance Colours](performance-colours.md)**: Customize color schemes based on grade performance
 
 {: .note }
-> Premium features require both a valid license and an active premium subscription. Visit the Support page to manage your subscription.
+> Premium features require both a valid license and an active premium subscription. [Purchase or upgrade at Gdev Apps](https://gdev.app/product-page/gradebook-for-google-sheets-and-classroom/).
 
 ## Feature Requirements
 
@@ -52,7 +52,7 @@ Most GradeBook features have specific requirements:
 
 | Requirement | Description |
 |:------------|:------------|
-| Valid License | A license key obtained from the Google Workspace Marketplace |
+| Valid License | A license key [purchased from Gdev Apps](https://gdev.app/product-page/gradebook-for-google-sheets-and-classroom/) |
 | Must be GradeBook | The spreadsheet must be a properly formatted GradeBook |
 | Premium Subscription | An active premium subscription for enhanced features |
 
@@ -69,7 +69,7 @@ Each feature page indicates its specific requirements at the top of the page.
 ### Common Workflows
 
 **Setting up a new course:**
-1. Create & View GradeBooks → Create new gradebook
+1. Create & View GradeBooks → Create new GradeBook
 2. Import from Google Classroom → Import students and assignments
 3. Views and Sorting → Customize display
 

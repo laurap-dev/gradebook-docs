@@ -16,325 +16,200 @@ The Copy GradeBook feature creates a duplicate of your existing GradeBook, makin
 - **Premium License**: ❌ Not required
 - **Must be using a GradeBook**: ✅ Required
 
-
-## Overview
-
-Copy GradeBook creates a new GradeBook with:
-- Same structure and settings
-- Same assignments (optional)
-- Same students (optional)
-- Clear or preserved grades (your choice)
-- Independent from original
-
 ## Accessing the Feature
 
 1. Open your GradeBook spreadsheet
 2. Click **Extensions → GradeBook → Utilities → Copy GradeBook**
-3. The copy gradebook sidebar will open
+3. The Copy GradeBook sidebar will open
 
-## When to Use Copy GradeBook
+---
 
-### New Grading Period
+## Sidebar Cards
 
-Start a new quarter or semester:
-- Keep same students
-- Keep or clear assignments
-- Clear all grades
-- Update settings for new period
+### Copy GradeBook (Title Card)
 
-### New Section
+The header card displays the feature title and a brief description: "Create a copy of your GradeBook with customized settings."
 
-Teach multiple sections of same course:
-- Keep assignments and structure
-- Clear students (import new roster)
-- Maintain consistent grading across sections
+---
 
-### Testing or Backup
+### Copy Options
 
-- Create copy for testing new features
-- Make backup before major changes
-- Experiment with different settings
-- Archive at end of term
+This card contains the main settings for what data to include or exclude in your copy. A feedback alert at the top indicates whether at least one option is selected.
 
-### Alternative Grading Method
+{: .important }
+> You must select at least one option before the Copy GradeBook button becomes enabled.
 
-Try different calculation method:
-- Copy structure
-- Change from Standard to Category (or vice versa)
-- Compare results
+#### Primary Options
 
-## Copy Options
+**Clear assignments**
+- Removes all assignment columns from the copy
+- Keeps students if not cleared separately
+- Cannot be combined with "Copy all"
 
-### What to Copy
+**Clear students**
+- Removes all student rows from the copy
+- Keeps assignments if not cleared separately
+- Cannot be combined with "Copy all"
 
-Select what elements to include in the copy:
+**Copy all (including grades)**
+- Creates an exact duplicate with all data preserved
+- Includes all students, assignments, and grades
+- Cannot be combined with clear options
 
-**GradeBook Structure** (always copied)
-- GradeBook type (Standard, Category, Total Points)
-- Maximum assignments
-- Column structure
-- Protected ranges
+{: .note }
+> These primary options are mutually exclusive: selecting "Clear assignments" or "Clear students" disables "Copy all", and vice versa.
 
-**Configuration Settings**
-- Display preferences
-- Category definitions
-- Folder locations
-- Custom settings
+#### Optional Settings
 
-**Students**
-- **Include Students**: Copies student roster
-- **Exclude Students**: Empty roster in copy
-- **Include Student Info**: Email addresses, guardian contacts
+**Clear notes** (checked by default)
+- Removes all cell notes from the GradeBook sheet
+- Automatically enabled and locked when clearing assignments or students
+- Only configurable when using "Copy all"
 
-**Assignments**
-- **Include Assignments**: Copies assignment names, points, due dates
-- **Exclude Assignments**: Blank assignment columns
-- **Include Categories**: Copies category assignments (Category Weighting only)
+**Unlink Google Classroom**
+- Removes the Google Classroom connection from the copy
+- The copied GradeBook will not sync with the original Classroom course
+- Useful when creating a copy for a different section or term
 
-**Grades**
-- **Include Grades**: Copies all grade data
-- **Clear Grades**: Blank grades, keeps structure
-- **Never copy**: Generally not recommended for new terms
+---
 
-**Attendance**
-- **Include Attendance**: Copies attendance records
-- **Clear Attendance**: Fresh attendance tracking
+### Date Adjustments
 
-## Copy Configuration
+This card only appears when assignments are being preserved (either "Copy all" is selected, or "Clear students" is selected without "Clear assignments").
 
-### New GradeBook Details
+#### Date Handling Options
 
-**Course Name**
-- Auto-populated with "[Original Name] - Copy"
-- Customize for new term/section
-- Example: "Math 101 - Spring 2024"
+**Keep existing dates**
+- Preserves original assignment due dates
+- Default option
 
-**Folder Location**
-- Choose where copy will be saved
-- Default: Same folder as original
-- Recommended: Create term-specific folders
-- Example: "GradeBooks/2024-2025/Quarter 2/"
+**Clear all dates**
+- Removes all due dates from assignments
+- Leaves date fields empty
 
-**Reports Folder**
-- Where reports from copy will be saved
-- Default: New subfolder in copy location
-- Keep organized per gradebook
+**Adjust dates**
+- Opens additional controls for date modification
+- Allows repositioning dates for a new term or semester
 
-### Term Information
+#### Date Adjustment Controls
 
-Update for new grading period:
-- Academic term
-- School year
-- Start and end dates
-- Section number
+When "Adjust dates" is selected, the following controls appear:
 
-## Step-by-Step: Copy for New Term
+**Reference date (first assignment)**
+- Select the new date for the first assignment
+- All other dates are calculated relative to this date
+- Uses a calendar picker for easy selection
 
-### 1. Open Copy GradeBook
+**Adjustment type**
+Three methods for recalculating dates:
 
-From your current term's gradebook:
-- Extensions → GradeBook → Utilities → Copy GradeBook
+| Type | Description |
+|------|-------------|
+| **Shift all dates by same interval** | Moves all dates by the same number of days. If your first assignment moves 30 days forward, all assignments move 30 days forward. |
+| **True proportional scaling** | Scales dates to fit a new timeframe. Assignments are repositioned proportionally between your new start and end dates. Requires an end reference date. |
+| **Preserve day of week** | Maintains the same day of the week for each assignment. A Monday assignment stays on Monday, adjusted to the new schedule. |
 
-### 2. Configure Copy Options
+**End reference date** (proportional scaling only)
+- Sets the new date for the last assignment
+- Required for proportional scaling
+- Must be after the start reference date
 
-- **Include Students**: ✓ Yes
-- **Include Assignments**: ✓ Yes (or No if restructuring)
-- **Include Grades**: ✗ No (clear for new term)
-- **Include Attendance**: ✗ No (fresh start)
-- **Include Settings**: ✓ Yes
+---
 
-### 3. Set New Details
+### GradeBook Size
 
-- **Course Name**: Update with new term
-  - Example: "Math 101 - Q2" or "Math 101 - Spring 2024"
-- **Folder**: Select or create new term folder
-- **Term Info**: Update dates and term name
+Controls the maximum number of assignment columns in the copied GradeBook.
 
-### 4. Create Copy
+**Maximum number of assignments**
+- Dropdown showing available sizes: 25, 50, 75, 100, 125, 150
+- Only shows sizes equal to or greater than the current GradeBook size
+- Cannot reduce below your current assignment count
 
-- Click "Create Copy"
-- Wait 30-60 seconds for copy to complete
-- New gradebook will open in new tab
+{: .note }
+> Larger GradeBook sizes may impact spreadsheet performance. Choose the smallest size that meets your needs.
 
-### 5. Verify Copy
+---
 
-Check that:
-- Students are correct
-- Assignments are present (if included)
-- Grades are blank (if cleared)
-- Settings are as expected
-- Formulas are working
+### Actions
 
-### 6. Update for New Term
+Contains the button to initiate the copy process.
 
-- Import updated student roster if needed
-- Update assignment due dates
-- Adjust any term-specific settings
-- Begin entering grades
+**Copy GradeBook**
+- Disabled until at least one copy option is selected
+- Click to start the copy process
+- Opens the copied GradeBook automatically upon completion
 
-## Advanced Copy Options
+---
 
-### Selective Student Copy
+## Copy Process
 
-Instead of all or none:
-1. Create list of students to include
-2. Use "Copy Selected Students Only" option
-3. Choose students from list
+When you click "Copy GradeBook", the system creates a new GradeBook in your GradeBook folder with your selected options applied. This process typically takes 30-60 seconds.
 
-Useful for:
-- Continuing students only
-- Specific class periods
-- Removing withdrawn students
+{: .important }
+> Do not close the sidebar or refresh the page during the copy process. Wait for the confirmation message and link to your new GradeBook.
 
-### Selective Assignment Copy
-
-Copy only certain assignments:
-1. Use "Copy Selected Assignments" option
-2. Choose which assignments to include
-3. Useful for recurring assignments
-
-Examples:
-- Weekly quizzes that repeat each term
-- Standard projects or tests
-- Participation or homework columns
-
-### Merge Copied Data
-
-Combine with existing gradebook:
-1. Create copy with specific data
-2. Merge into another gradebook
-3. Advanced users only
+---
 
 ## Common Copy Scenarios
 
-### Scenario: New Quarter, Same Students
+### Scenario: New Term, Same Students
 
 **Configuration:**
-- Include Students: Yes
-- Include Assignments: No (or Yes if keeping)
-- Clear Grades: Yes
-- Update course name with quarter
+- Clear assignments: Yes
+- Clear students: No
+- Clear notes: Yes (default)
 
-**Result:** Same students, blank grades, ready for new quarter
+**Result:** Same student roster with blank assignments, ready for a new term.
 
-### Scenario: New Section, Same Course
-
-**Configuration:**
-- Include Students: No
-- Include Assignments: Yes
-- Clear Grades: Yes (nothing to copy)
-- Update course name with section
-
-**Result:** Same assignment structure, ready for new roster
-
-### Scenario: Backup Before Changes
+### Scenario: New Section, Same Course Structure
 
 **Configuration:**
-- Include Everything: Yes
-- Preserve All Data: Yes
-- Add "BACKUP" to name
+- Clear assignments: No
+- Clear students: Yes
+- Clear notes: Yes (default)
 
-**Result:** Complete duplicate, frozen in time
+**Result:** Same assignment structure with empty roster, ready for a new section.
 
-### Scenario: Archive at Term End
+### Scenario: Complete Backup
 
 **Configuration:**
-- Include Everything: Yes
-- Move to Archive folder
-- Clearly label with term and year
+- Copy all (including grades): Yes
+- Clear notes: No
 
-**Result:** Complete record for future reference
+**Result:** Exact duplicate of your GradeBook, including all data.
+
+### Scenario: New Semester with Adjusted Dates
+
+**Configuration:**
+- Clear students: Yes
+- Date handling: Adjust dates
+- Adjustment type: Shift all dates by same interval
+- Reference date: First day of new semester
+
+**Result:** Same assignments with dates shifted to the new semester.
+
+---
 
 ## Tips and Best Practices
 
-### Naming Conventions
-
-Use clear, consistent names:
-- Include course name and section
-- Include term and year
-- Examples:
-  - "Math 101 P1 - Fall 2024"
-  - "English 9A - Q2"
-  - "AP Physics - Spring Term"
-
-### Folder Organization
-
-Create a logical structure:
-```
-GradeBooks/
-├── 2024-2025/
-│   ├── Quarter 1/
-│   │   └── Math 101 - Q1
-│   ├── Quarter 2/
-│   │   └── Math 101 - Q2
-│   └── Quarter 3/
-│       └── Math 101 - Q3
-└── 2023-2024/
-    └── [Archived Terms]
-```
-
-### Version Control
-
-Track versions:
-- Date copies clearly
-- Note what changed between versions
-- Keep changelog in folder
-- Don't delete old versions immediately
+### Naming Your Copy
+- The copy is automatically named "Copy of [Original Name]"
+- Rename it immediately after opening to reflect the new term, section, or purpose
+- Example: "Math 101 - Spring 2025" instead of "Copy of Math 101 - Fall 2024"
 
 ### Before Copying
+- Ensure your original GradeBook has the structure you want
+- If you notice formula issues in your original, use [Fix Grades](fix-grades.md) first
 
-Checklist:
-- [ ] Current gradebook is in good state
-- [ ] All grades are entered and verified
-- [ ] No broken formulas or errors
-- [ ] Settings are as desired
-- [ ] Ready to start fresh in copy
-
-## Copy vs. Other Options
-
-### Copy vs. Create New
-
-**Copy GradeBook:**
-- Preserves structure and settings
-- Faster setup
-- Maintains consistency
-- Use when structure is good
-
-**Create New:**
-- Fresh start
-- Different gradebook type available
-- More flexible
-- Use when changing approach
-
-### Copy vs. Reset
-
-**Copy GradeBook:**
-- Preserves original
-- Creates new file
-- Both gradebooks exist
-- Safer
-
-**Reset Options:**
-- Modifies original
-- Single file
-- Changes are permanent
-- Use when you don't need the original
+---
 
 ## Troubleshooting
 
-### Issue: Copy fails or times out
+### Issue: Copy button is disabled
 
-**Causes:**
-- Large gradebook (many students/assignments)
-- Slow internet connection
-- Browser memory issues
+**Cause:** No copy options selected
 
-**Solutions:**
-- Try copying without grades/attendance
-- Use a faster internet connection
-- Close other browser tabs
-- Try in different browser
-- Copy in smaller pieces if needed
+**Solution:** Select at least one option (Clear assignments, Clear students, or Copy all)
 
 ### Issue: Copy is missing data
 
@@ -352,32 +227,44 @@ Checklist:
 
 **Causes:**
 - Formula references not updated
-- Protected ranges not copied correctly
+- Original had formula issues
 
 **Solutions:**
 - Use [Fix Grades](fix-grades.md) on the copy
 - Verify original didn't have broken formulas
 - Recreate copy if necessary
 
-### Issue: Can't find the copy
+### Issue: Dates not adjusted correctly
 
 **Causes:**
-- Saved to unexpected folder
-- Named differently than expected
+- Wrong adjustment type selected
+- Invalid reference date
+- Missing end date for proportional scaling
 
 **Solutions:**
-- Check the folder you specified
-- Search Google Drive for course name
-- Look in original gradebook's folder
-- Check recent files in Google Drive
+- Verify the adjustment type matches your needs
+- Ensure reference date is valid
+- For proportional scaling, ensure end date is after start date
+
+---
+
+## Copy vs. Create New
+
+| Use Copy GradeBook When | Use Create New When |
+|------------------------|---------------------|
+| You want to preserve structure and settings | You need a fresh start |
+| Starting a new term with same course setup | Changing to a different GradeBook type |
+| Creating a backup of your GradeBook | You want different assignment limits |
+| Setting up multiple sections with same structure | Current structure doesn't meet your needs |
+
+---
 
 ## Related Features
 
-- **[Create & View GradeBooks](create-gradebooks.md)**: Create entirely new gradebooks
-- **[Reset Options](reset-options.md)**: Clear data without copying
-- **[Fix Grades](fix-grades.md)**: Repair issues in copies
+- **[Create & View GradeBooks](create-gradebooks.md)**: Create entirely new GradeBooks
+- **[Fix Grades](fix-grades.md)**: Repair formula issues in copies
 
 ---
 
 {: .note }
-> Copying creates an independent gradebook. Changes to the copy don't affect the original, and vice versa.
+> Copying creates an independent GradeBook. Changes to the copy don't affect the original, and vice versa.
