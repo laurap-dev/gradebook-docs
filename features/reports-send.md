@@ -43,7 +43,7 @@ The main action area:
 - **Refresh Data**: Update the sidebar with any changes made to your GradeBook after you opened **Send Reports**
 
 {: .warning }
-> **Important:** If you change grades, attendance, or contact information in your GradeBook after opening the **Send Reports** sidebar, those updates will **not** be included in the emails until you click **Refresh Data**.
+> **Important:** If you change anything in your GradeBook after opening this sidebar, the reports will **not** include those updates until you click **Refresh Data**.
 
 Shows counts of:
 - Emails to Send
