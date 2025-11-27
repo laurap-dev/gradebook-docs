@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Version History
-nav_order: 5
+nav_order: 6
 description: "GradeBook version history and release notes"
 ---
 
