@@ -28,8 +28,8 @@ docs/
     ├── import-classroom.md
     ├── import-csv.md (Premium)
     ├── attendance.md
-    ├── generate-reports.md
-    ├── send-reports.md
+    ├── reports-generate.md
+    ├── reports-send.md
     ├── reset-options.md
     ├── fix-grades.md
     ├── report-logo.md (Premium)
@@ -169,7 +169,7 @@ Use callouts to highlight important information:
 ### Feature Pages
 
 Each feature page should include:
-1. Requirements (license, gradebook, premium)
+1. Requirements (license, GradeBook, premium)
 2. Overview of what the feature does
 3. How to access the feature
 4. Step-by-step instructions

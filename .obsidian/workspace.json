@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "3d0956776b329091",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e9b91fe65f10726",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62977a3b4a4d7cc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "getting-started.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "getting-started"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "da8010c518924474",
+    "type": "split",
+    "children": [
+      {
+        "id": "370fbed66b06802a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9c1751a029e335d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2df106b9ed3f6a15",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fbd0eda6c9d2b5e0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "390007cef37d0a1d",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7f9ff95454b01b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "379bb8725b80aa88",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "getting-started.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for getting-started"
+            }
+          },
+          {
+            "id": "5dcd1b189859a535",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "getting-started.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from getting-started"
+            }
+          },
+          {
+            "id": "b0ca23e1c3090ba8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "701ae57586c34a94",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "03a33e4f863a5ef9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "getting-started.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of getting-started"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "62977a3b4a4d7cc4",
+  "lastOpenFiles": [
+    "features/reports-generate.md",
+    "getting-started.md",
+    "_site/features/reports-send.html",
+    "_site/features/reports-generate.html",
+    "features/reports-send.md",
+    "features/generate-reports.md",
+    "features/fix-grades.md",
+    "using-your-gradebook.md",
+    "README.md",
+    "features/create-gradebooks.md",
+    "features/copy-gradebook.md",
+    "features/grading-methods.md",
+    "_includes/head_custom.html",
+    "features/import-classroom.md",
+    "image1.md",
+    "_site/image1.md",
+    "_site/features/grading-methods.md",
+    "index.md",
+    "_feature-template.md",
+    "sheets.google.com.md",
+    "_site/sheets.google.com.md",
+    "features/attendance.md"
+  ]
+}

@@ -18,7 +18,7 @@ Generate and email student progress reports directly to students, parents, or gu
 
 ## Accessing the Feature
 
-1. Open your GradeBook spreadsheet
+1. Open your GradeBook
 2. Click **Extensions → GradeBook → Reports → Send Reports**
 3. The Send Reports sidebar will open
 
@@ -30,7 +30,7 @@ Generate and email student progress reports directly to students, parents, or gu
 
 Displays your list of students with their email and phone contact status. Icons show whether student email, guardian email, or SMS is configured for each student.
 
-To change which students receive reports, edit Column G (Student) and Column I (Parent) in your GradeBook, then click Refresh Data.
+To change which students receive reports, edit Column G (Student) and Column I (Parent) in your GradeBook, then click **Refresh Data** in the sidebar.
 
 ### Attendance Data
 
@@ -40,7 +40,10 @@ Only appears if your GradeBook has attendance tracking enabled. Select which att
 
 The main action area:
 - **Send Reports**: Generate and send reports to all students with configured contacts
-- **Refresh Data**: Update the sidebar if you've made changes to your GradeBook
+- **Refresh Data**: Update the sidebar with any changes made to your GradeBook after you opened **Send Reports**
+
+{: .warning }
+> **Important:** If you change grades, attendance, or contact information in your GradeBook after opening the **Send Reports** sidebar, those updates will **not** be included in the emails until you click **Refresh Data**.
 
 Shows counts of:
 - Emails to Send
@@ -67,45 +70,51 @@ If you have Premium Plus, this card shows your automatic report sending configur
 - Next scheduled send date
 
 ### Report Configuration
-
+  
 **Report Detail Level**
 - **Full**: Includes all assignment details
 - **Simple**: Shows basic grade summary
-- **Overall Mark**: Shows only final grade percentage
-
-**Report Date Format**: Choose how dates appear in reports
-
-**Report Display Grades As**: Percent, Letter, or Both
+- **Overall Mark**: Shows only final grade
+  
+**Report Date Format**
+- Choose how dates appear in reports (e.g., "Jan 1, 2026" vs "01/01/2026")
+  
+**Report Display Grades As**
+- **Percent**: Show grades as percentages (95%)
+- **Letter**: Show letter grades (A+)
+- **Both**: Show both formats (95% A+)
 
 ### Report Content Options
-
-**Include Notes**: Add assignment-specific teacher notes
-
-**Include Teacher Comments**: Add overall teacher comments for each student
-
-**Sort Assignments By**: Category, Date, Title, or Term
-
-**Show Category Percent**: Display percentage for each category
-
-**Show Term Percent**: Display overall term percentage
-
-**Show Total Points**: Include total points earned and possible
-
-**Include Only Empty Grades**: Only show assignments with missing work
-
+  
+**Include Notes**: Include assignment-specific teacher notes in the report
+  
+**Include Teacher Comments**: Include overall teacher comments for each student
+  
+**Sort Assignments By**: Choose how assignments are organized. Options depend on your GradeBook type:
+- **Category** is only available for **Category Weighting** GradeBooks
+- **Term** is only available for **Terms** GradeBooks
+  
+**Show Category Percent**: Display the percentage grade for each category. Only available for **Category Weighting** GradeBooks; this option is hidden on other GradeBook types.
+  
+**Show Term Percent**: Display the overall term percentage for each grading period. Only available for **Terms** GradeBooks; this option is hidden when your GradeBook does not use terms.
+  
+**Show Total Points**: Include total points earned and possible. Only available for **Total Points** GradeBooks; this option is hidden on Standard or Category Weighting GradeBooks.
+  
+**Include Only Empty Grades**: Only show assignments with missing or ungraded work
+  
 **Override Grades from Column K**: Use override grades when available
-
-**Include Student Number**: Add student ID to report header
-
-**Include Logo on Reports** (Premium Plus): Add your uploaded logo
+  
+**Include Student Number**: Include student ID number in the report header
+  
+**Include Logo on Reports** (Premium Plus): Add your uploaded logo to reports
 
 ### Grade Display Settings
-
-**Display Zero Grade As**: Choose how to show zero grades (0, Not Handed In, Missing, etc.)
-
+  
+**Display Zero Grade As**: Choose how to show zero grades (0, Not Handed In, Missing, Incomplete, etc.)
+  
 **Display Missing Grade As**: Choose how to show missing assignments
-
-**Final Grade As**: How to display final grade when not finalized
+  
+**Final Grade As**: How to display final grade when not yet finalized (As Is, TBD, N/A, Pending, etc.)
 
 ### Language Settings
 
@@ -143,6 +152,6 @@ Make sure these columns contain valid email addresses before sending.
 
 ## Related Features
 
-- [Generate Reports](generate-reports.md) - Generate reports without sending
+- [Generate Reports](reports-generate.md) - Generate reports without sending
 - [Report Logo](report-logo.md) - Add a custom logo to reports (Premium Plus)
 - [Attendance](attendance.md) - Track attendance to include in reports

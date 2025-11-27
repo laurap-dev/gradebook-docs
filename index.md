@@ -17,9 +17,9 @@ GradeBook is a comprehensive Google Sheets Add-on that transforms your spreadshe
 
 GradeBook is designed specifically for educators who want to:
 
-- **Create and manage gradebooks** with multiple weighting methods (Standard, Category, and Total Points)
+- **Create and manage GradeBooks** with multiple weighting methods (Standard, Category, and Total Points)
 - **Import and sync grades** from Google Classroom automatically
-- **Generate professional reports** as Google Docs for students and parents
+- **[Generate Reports](features/reports-generate.md)**: Create student progress reports for students and parents
 - **Track attendance** and student participation
 - **Customize views** to display grades exactly how you need them
 - **Share reports** via email with personalized content
@@ -47,10 +47,10 @@ Send reports directly to students and guardians with customizable email template
 - Advanced import options with CSV support
 
 ### 🔧 Utilities
-Tools to help you manage and maintain your gradebook:
+Tools to help you manage and maintain your GradeBook:
 - Fix grade calculations
 - Reset configuration options
-- Copy gradebooks for new terms
+- Copy GradeBooks for new terms
 - Customer support and subscription management
 
 ## Requirements
@@ -80,7 +80,7 @@ Ready to begin? Follow these steps:
 1. **[Install GradeBook](https://workspace.google.com/marketplace/app/gradebook/292160741496){:target="_blank"}** from the Google Workspace Marketplace
 2. **Open Google Sheets** and create a new spreadsheet
 3. **Access the GradeBook menu** from the Extensions menu
-4. **Create your first gradebook** using the "Create & View GradeBooks" option
+4. **Create your first GradeBook** using the "Create & View GradeBooks" option
 5. **Configure your settings** and start adding students and assignments
 
 For detailed instructions, see the [Getting Started Guide](getting-started.md).
@@ -103,4 +103,4 @@ Use the navigation menu on the left to explore:
 ---
 
 {: .warning }
-> **Privacy Notice**: GradeBook requires permissions to access your Google Sheets, Drive, and optionally Google Classroom. Your data remains private and is only used to provide GradeBook functionality. No student data is shared with third parties.
+> **Privacy Notice**: GradeBook requires permissions to access your Google Sheets, Drive, and optionally Google Classroom. Your data remains private and is only used to provide GradeBook functionality. No student data is accessed or shared.

@@ -23,8 +23,8 @@ These features are available with a standard GradeBook license:
 - **[Attendance](attendance.md)**: Track student attendance and participation
 
 ### Reports
-- **[Generate Reports](generate-reports.md)**: Create comprehensive student progress reports as Google Docs
-- **[Send Reports](send-reports.md)**: Email reports to students and guardians
+-- **[Generate Reports](reports-generate.md)**: Create comprehensive student progress reports as Google Docs
+-- **[Send Reports](reports-send.md)**: Email reports to students and guardians
 
 ### Utilities
 - **[Reset Options](reset-options.md)**: Reset configuration settings to defaults

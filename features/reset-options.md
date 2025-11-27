@@ -18,7 +18,7 @@ Quick tools to reset your GradeBook configuration or turn off all automation.
 
 ## Accessing the Feature
 
-1. Open your GradeBook spreadsheet
+1. Open your GradeBook
 2. Click **Extensions → GradeBook → Utilities → Reset Options**
 3. The Reset Options sidebar will open
 
@@ -36,7 +36,7 @@ Restore GradeBook settings to their default values. This does NOT delete or chan
 
 Use this when:
 - GradeBook is behaving unexpectedly
-- You want to start fresh with settings
+- You want to start fresh with default settings
 - Something in your configuration seems broken
 
 ### Turn Off Auto Features
@@ -57,7 +57,7 @@ Use this when:
 ## Tips
 
 - **Your data is safe**: Resetting settings only affects your preferences—students, assignments, and grades are not changed
-- **Automation can be re-enabled**: After turning off auto features, you can set them up again through Import or Reports
+- **Automation can be re-enabled**: After turning off auto features, you can set them up again through Import or Reports (however you will need to do this manually for each GradeBook)
 
 ---
 

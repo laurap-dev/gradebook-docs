@@ -50,7 +50,7 @@ Yes! GradeBook offers a free trial period (14 days) with full access to standard
 
 ### How do I check if I have the latest version?
 
-1. Open your GradeBook spreadsheet
+1. Open your GradeBook
 2. Go to **Extensions → GradeBook → Support → Customer Support & Subscription Details**
 3. Look for the message: "You have the latest version!"
 
@@ -110,21 +110,21 @@ GradeBook is designed for desktop browsers. Mobile access is limited due to Goog
 ### How many students can I have?
 
 No hard limit on students. However, performance considerations:
-- Recommended: Up to 200 students per gradebook
+- Recommended: Up to 200 students per GradeBook
 - More students = slower calculations
 - Consider dividing very large classes into sections
 
 ### How many assignments can I have?
 
-Set during gradebook creation (25-150). Cannot change after creation, but you can:
+Set during GradeBook creation (25-150). Cannot change after creation, but you can:
 - Hide unused columns
-- Create new gradebook with more columns
-- Copy structure to new gradebook
+- Create new GradeBook with more columns
+- Copy structure to new GradeBook
 
-### Can I change the gradebook type after creation?
+### Can I change the GradeBook type after creation?
 
-No. Gradebook type (Standard, Category, Total Points) is set at creation and cannot be changed. To use a different type:
-1. Create new gradebook with desired type
+No. GradeBook type (Standard, Category, Total Points) is set at creation and cannot be changed. To use a different type:
+1. Create new GradeBook with desired type
 2. Manually transfer student data
 3. Re-enter or import grades
 
@@ -192,12 +192,10 @@ Go to **Extensions → GradeBook → Utilities → Fix Grades**. You can use eit
 ### Overall grade seems wrong
 
 **Troubleshooting steps:**
-1. Check gradebook type matches your intent
+1. Check GradeBook type matches your intent
 2. Verify category weights add to 100% (if using weights)
 3. Use [Fix Grades](features/fix-grades.md) to check formulas
 4. Check for broken formulas (#REF!, #DIV/0!)
-
-
 
 ### How do I excuse an assignment?
 
@@ -219,7 +217,7 @@ If you've hit your limit, wait 24 hours for it to reset.
 
 **Possible causes:**
 - No students selected
-- No data in gradebook
+- No data in GradeBook
 - Report generation failed
 
 **Solutions:**
@@ -231,7 +229,7 @@ If you've hit your limit, wait 24 hours for it to reset.
 ### Can't send reports via email
 
 **Check:**
-- Email addresses are correct in gradebook
+- Email addresses are correct in GradeBook
 - Daily sending limit not exceeded
 - Reports were generated first
 - Permission to send emails
@@ -248,7 +246,7 @@ If you've hit your limit, wait 24 hours for it to reset.
 - Enable "Include Assignment Details"
 - Enable "Include Attendance" if desired
 - Check date range includes all assignments
-- Verify data exists in gradebook
+- Verify data exists in GradeBook
 
 ### How do I customize reports?
 
@@ -310,14 +308,14 @@ Yes. GradeBook:
 
 For full details, see our [Privacy Policy](https://gdev.app/privacy-policy/){:target="_blank"}.
 
-### Who can see my gradebooks?
+### Who can see my GradeBooks?
 
 Only people you share with:
 - Via Google Sheets sharing settings
 - Anyone with link has view/edit access (your choice)
 - Follow your school's data policies
 
-### How do I share gradebooks with other teachers?
+### How do I share GradeBooks with other teachers?
 
 1. File → Share in Google Sheets
 2. Enter teacher's email
@@ -326,7 +324,7 @@ Only people you share with:
 
 ### What happens to data when I uninstall?
 
-- Gradebooks remain in Google Drive
+- GradeBooks remain in Google Drive
 - Data is not deleted
 - Formulas may stop working
 - Can reinstall to regain functionality
@@ -376,7 +374,7 @@ Yes! Contact support with your school email address and school/district name.
 
 If you're experiencing a technical issue, you can share your GradeBook with the support team:
 
-1. Open your GradeBook spreadsheet
+1. Open your GradeBook
 2. Go to **Extensions → GradeBook → Support → Send Obfuscated GradeBook**
 3. This sends a privacy-protected copy with student data replaced
 

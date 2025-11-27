@@ -66,7 +66,7 @@ For premium features, add a note:
 ```markdown
 ## Accessing the Feature
 
-1. Open your GradeBook spreadsheet
+1. Open your GradeBook
 2. Click **Extensions → GradeBook → [Menu Path] → [Feature Name]**
 3. The [feature name] sidebar will open
 ```

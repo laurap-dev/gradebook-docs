@@ -89,4 +89,4 @@ Colors update automatically when grades change, so you'll always see current per
 ## Related Features
 
 - **[Views and Sorting](views-sorting.md)**: Control what you see and how it's organized
-- **[Generate Reports](generate-reports.md)**: Create student reports that include your performance colors
+- **[Generate Reports](reports-generate.md)**: Create student reports that include your performance colors

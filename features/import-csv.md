@@ -21,7 +21,7 @@ Import grades and student data from CSV files stored in your GradeBook folder.
 
 ## Accessing the Feature
 
-1. Open your GradeBook spreadsheet
+1. Open your GradeBook
 2. Click **Extensions → GradeBook → Import & Attendance → Import from Google Classroom CSV**
 3. The Import from CSV sidebar will open
 

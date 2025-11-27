@@ -18,7 +18,7 @@ The Copy GradeBook feature creates a duplicate of your existing GradeBook, makin
 
 ## Accessing the Feature
 
-1. Open your GradeBook spreadsheet
+1. Open your GradeBook
 2. Click **Extensions → GradeBook → Utilities → Copy GradeBook**
 3. The Copy GradeBook sidebar will open
 

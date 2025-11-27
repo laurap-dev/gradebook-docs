@@ -7,7 +7,7 @@ description: "Learn how to install and set up GradeBook for the first time"
 
 # Getting Started with GradeBook
 
-This guide will walk you through installing GradeBook, creating your first gradebook, and understanding the basic workflow.
+This guide will walk you through installing GradeBook, creating your first GradeBook, and understanding the basic workflow.
 
 ## Installation
 
@@ -18,112 +18,53 @@ This guide will walk you through installing GradeBook, creating your first grade
 4. Review the permissions required:
    - Access to your Google Sheets
    - Access to Google Drive (for report generation)
-   - Access to Google Classroom (optional, for import features)
+   - Access to Google Classroom (for import features)
    - Permission to send emails (for report delivery)
-5. Click **Continue** and authorize the application
-6. Select your Google account and grant permissions
+1. Click **Continue** and authorize the application
+2. Select your Google account and grant permissions
 
 {: .important }
-> GradeBook requires these permissions to function properly. Your data remains private and is never shared with third parties.
+> GradeBook requires these permissions to function properly. Your data remains private.
 
 ### Step 2: Open GradeBook in Google Sheets
 
-1. Open **Google Sheets** (sheets.google.com)
+1. Open **Google Sheets** ([sheets.google.com](https://sheets.google.com){:target="_blank"})
 2. Create a new blank spreadsheet or open an existing one
-3. Wait a few seconds for the add-on to load
-4. Look for **Extensions** in the top menu
-5. Click **Extensions → GradeBook**
-6. You should see the GradeBook menu with available options
+3. Look for **Extensions** in the top menu
+4. Click **Extensions → GradeBook**
+5. You should see the GradeBook menu with available options
 
 {: .note }
-> If you don't see the GradeBook menu, try refreshing the page or reopening the spreadsheet.
+> If you don't see the GradeBook menu, try refreshing the page or reopening the spreadsheet. If the full menu does not show, try these steps: [Activate Guide](https://gdev.app/activate-guide/){:target="_blank"}
 
 ## Creating Your First GradeBook
 
-### Step 1: Launch the Create GradeBook Interface
+To set up a new GradeBook, use the **Create & View GradeBooks** feature.
 
-1. Click **Extensions → GradeBook → Create & View GradeBooks**
-2. The GradeBook creation sidebar will open on the right side of your screen
+**Quick steps:**
 
-### Step 2: Configure GradeBook Structure
+1. Click **Extensions → GradeBook → Create & View GradeBooks**.
+2. In the sidebar, choose your GradeBook type, whether to include sample students, and the maximum number of assignments.
+3. Enter your course information (at minimum, a **Course Name**) and click **Create GradeBook**.
 
-**Choose a GradeBook Type:**
+If you're unsure which grading method to choose, see the [Grading Methods](features/grading-methods.md) documentation.  
 
-Select the grading calculation method that matches your teaching style:
-
-- **Standard Weighting**: Each assignment has an individual weight
-  - Example: Homework 1 = 5%, Quiz 1 = 10%, Test 1 = 20%
-  - Best for: Flexible grading where each assignment has unique importance
-
-- **Category Weighting**: Assignments are grouped into categories, and each category has a weight
-  - Example: Homework = 30%, Quizzes = 30%, Tests = 40%
-  - Best for: Consistent grading policies across assignment types
-
-- **Total Points**: Grades calculated by total points earned out of total possible points
-  - Example: Student earns 450 out of 500 points = 90%
-  - Best for: Simple, straightforward grading
-
-**Include Sample Students:**
-
-- Select **No** if you want to start with a blank gradebook
-- Select **Yes** to populate the gradebook with sample data (helpful for learning)
-
-**Set Maximum Assignments:**
-
-Choose the maximum number of assignment columns (25, 50, 75, 100, 125, or 150):
-- More columns provide flexibility but may slow down the spreadsheet
-- You can always create a new gradebook if you need more assignments
-- Recommended: Start with 100 assignments
-
-### Step 3: Enter Course Information
-
-**Course Name** (Required):
-- Enter a descriptive name for your course
-- Example: "Math 101 - Fall 2024" or "AP Physics - Period 3"
-
-**Additional Course Details:**
-- Teacher name
-- Academic term
-- Course section
-- Any other relevant information
-
-{: .warning }
-> The Course Name is required. You cannot create a gradebook without it.
-
-### Step 4: Configure Folder Settings
-
-**GradeBook Folder:**
-GradeBook needs a Google Drive folder to store your gradebooks:
-- If this is your first gradebook, GradeBook will create a default folder
-- You can select an existing folder from your Google Drive
-- All gradebooks for this course will be stored in this folder
-
-**Reports Folder:**
-Specify where generated reports will be saved:
-- Select an existing folder or create a new one
-- Recommended: Use a subfolder within your GradeBook folder
-- Example structure: `My Drive/GradeBooks/Math 101/Reports`
-
-### Step 5: Create the GradeBook
-
-1. Review all your settings
-2. Click the **Create GradeBook** button
-3. Wait for the creation process to complete (usually 10-30 seconds)
-4. Your new gradebook will be created in a new Google Sheets tab or file
-
-{: .note }
-> After creation, GradeBook will format the spreadsheet with headers, formulas, and conditional formatting. Do not manually edit formula columns.
+For a detailed, field-by-field walkthrough of every option in the sidebar, see **[Create & View GradeBooks](features/create-gradebooks.md)**.
 
 ## Understanding Your GradeBook Layout
 
-Once created, your gradebook will have the following structure:
+Once created, your GradeBook will have the following structure:
 
 ### Column Organization
 
 **Student Information Columns:**
+- Performance Indicators
+- Student ID 
 - Student Name
-- Student ID or Email
+- Student Email
 - Guardian Email (if applicable)
+- Teacher Comments
+- Override Grades
 
 **Assignment Columns:**
 - Assignment names in the header row
@@ -147,14 +88,23 @@ Some columns are automatically protected to prevent accidental edits:
 
 ## Next Steps
 
-Now that you have created your gradebook, you can:
+Now that you have created your GradeBook, you can:
 
 1. **[Add Students](features/import-classroom.md)**: Import from Google Classroom or add manually
 2. **[Enter Grades](features/views-sorting.md)**: Use the Views and Sorting feature to customize your view
-3. **[Generate Reports](features/generate-reports.md)**: Create student progress reports
+3. **[Generate Reports](features/reports-generate.md)**: Create student progress reports
 4. **[Configure Settings](features/reset-options.md)**: Customize GradeBook to your preferences
 
 ## Common Setup Issues
+
+{: .important }
+> Being logged into **multiple Google accounts in the same browser** can cause conflicts (for example, the wrong account being used for permissions or menus not loading correctly).
+> 
+> **Before testing, make sure to:**
+> 1. Use **Google Chrome** (preferred browser).
+> 2. Log out of **all** your Google accounts.
+> 3. Clear your browser **cache**.
+> 4. Log back in **only** with the email you use our apps with.
 
 ### Issue: GradeBook menu doesn't appear
 
@@ -179,10 +129,6 @@ Now that you have created your gradebook, you can:
 - Check your internet connection
 - Contact support if the issue persists
 
-## Video Tutorials
-
-{: .note }
-> Video tutorial links will be added here once available.
 
 ## Need Help?
 

@@ -18,7 +18,7 @@ Repair and recalculate student grades in your GradeBook. Use this feature when g
 
 ## Accessing the Feature
 
-1. Open your GradeBook spreadsheet
+1. Open your GradeBook
 2. Click **Extensions → GradeBook → Utilities → Fix Grades**
 3. The Fix Grades sidebar will open
 

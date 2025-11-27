@@ -18,7 +18,7 @@ Send an obfuscated copy of your GradeBook to customer support for assistance. Th
 
 ## Accessing the Feature
 
-1. Open your GradeBook spreadsheet
+1. Open your GradeBook
 2. Click **Extensions → GradeBook → Support → Send Obfuscated GradeBook**
 3. The Send Obfuscated GradeBook sidebar will open
 

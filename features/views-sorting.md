@@ -18,7 +18,7 @@ Control what you see and how it's organized in your GradeBook. Switch between di
 
 ## Accessing the Feature
 
-1. Open your GradeBook spreadsheet
+1. Open your GradeBook
 2. Click **Extensions → GradeBook → Views and Sorting**
 3. The Views and Sort sidebar will open
 
@@ -97,4 +97,4 @@ If your GradeBook uses Category Weighting, you'll see additional sorting options
 ## Related Features
 
 - **[Performance Colours](performance-colours.md)** (Premium): Add colors to grades based on performance levels
-- **[Generate Reports](generate-reports.md)**: Create student reports
+- **[Generate Reports](reports-generate.md)**: Create student reports

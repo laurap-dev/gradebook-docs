@@ -18,7 +18,7 @@ Create comprehensive student progress reports as Google Docs for printing or sha
 
 ## Accessing the Feature
 
-1. Open your GradeBook spreadsheet
+1. Open your GradeBook
 2. Click **Extensions → GradeBook → Reports → Generate Reports**
 3. The Generate Reports sidebar will open
 
@@ -43,36 +43,39 @@ The main action buttons:
 - **Student Reports**: Generate individual reports for each selected student
 - **Course Summary Report**: Generate a single report summarizing all selected students
 
-The **Refresh Data** button updates the sidebar if you've made changes to your GradeBook.
+{: .warning }
+> **Important:** If you change anything in your GradeBook after opening this sidebar, the reports will **not** include those updates until you click **Refresh Data**.
 
 ### Report Configuration
 
 **Report Detail Level**
 - **Full**: Includes all assignment details
 - **Simple**: Shows basic grade summary
-- **Overall Mark**: Shows only final grade percentage
+- **Overall Mark**: Shows only final grade
 
 **Report Date Format**
 - Choose how dates appear in reports (e.g., "Jan 1, 2026" vs "01/01/2026")
 
 **Report Display Grades As**
-- **Percent**: Show grades as percentages (85%)
-- **Letter**: Show letter grades (B+)
-- **Both**: Show both formats
+- **Percent**: Show grades as percentages (95%)
+- **Letter**: Show letter grades (A+)
+- **Both**: Show both formats (95% A+)
 
 ### Report Content Options
 
-**Include Notes**: Add assignment-specific teacher notes
+**Include Notes**: Include assignment-specific teacher notes in the report
 
-**Include Teacher Comments**: Add overall teacher comments for each student
+**Include Teacher Comments**: Include overall teacher comments for each student
 
-**Sort Assignments By**: Choose how assignments are organized (Category, Date, Title, or Term)
+**Sort Assignments By**: Choose how assignments are organized. Options depend on your GradeBook type:
+- **Category** is only available for **Category Weighting** GradeBooks
+- **Term** is only available for **Terms** GradeBooks
 
-**Show Category Percent**: Display the percentage grade for each category
+**Show Category Percent**: Display the percentage grade for each category. Only available for **Category Weighting** GradeBooks; this option is hidden on other GradeBook types.
 
-**Show Term Percent**: Display the overall term percentage for each grading period
+**Show Term Percent**: Display the overall term percentage for each grading period. Only available for **Terms** GradeBooks; this option is hidden when your GradeBook does not use terms.
 
-**Show Total Points**: Include total points earned and possible
+**Show Total Points**: Include total points earned and possible. Only available for **Total Points** GradeBooks; this option is hidden on Standard or Category Weighting GradeBooks.
 
 **Include Only Empty Grades**: Only show assignments with missing or ungraded work
 
@@ -127,6 +130,6 @@ Reports are saved to a "Reports" folder in your Google Drive, organized by Grade
 
 ## Related Features
 
-- [Send Reports](send-reports.md) - Email reports to students and guardians
+- [Send Reports](reports-send.md) - Email reports to students and guardians
 - [Report Logo](report-logo.md) - Add a custom logo to reports (Premium Plus)
 - [Attendance](attendance.md) - Track attendance to include in reports

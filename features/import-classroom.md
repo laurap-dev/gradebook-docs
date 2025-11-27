@@ -19,7 +19,7 @@ Import and sync grades from Google Classroom. Keep your GradeBook up-to-date wit
 
 ## Accessing the Feature
 
-1. Open your GradeBook spreadsheet
+1. Open your GradeBook
 2. Click **Extensions → GradeBook → Import & Attendance → Import from Google Classroom**
 3. The Google Classroom Import sidebar will open
 

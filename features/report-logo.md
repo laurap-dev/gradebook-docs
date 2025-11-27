@@ -18,7 +18,7 @@ Add a custom logo (such as your school or district logo) to the header of genera
 
 ## Accessing the Feature
 
-1. Open your GradeBook spreadsheet
+1. Open your GradeBook
 2. Click **Extensions → GradeBook → Utilities → Report Logo**
 3. The Report Logo sidebar will open
 
@@ -72,5 +72,5 @@ Click **Generate Sample Report** to create a test report showing how your logo w
 
 ## Related Features
 
-- [Generate Reports](generate-reports.md) - Create reports that include your logo
-- [Send Reports](send-reports.md) - Email reports to parents
+- [Generate Reports](reports-generate.md) - Create reports that include your logo
+- [Send Reports](reports-send.md) - Email reports to parents

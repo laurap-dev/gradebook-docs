@@ -7,7 +7,7 @@ description: "Learn how to enter student information, assignments, grades, and c
 
 # Using Your GradeBook
 
-This guide covers how to work directly with your GradeBook spreadsheet—adding students, entering grades, configuring settings, and more. These tasks are done by editing cells in your GradeBook rather than through menu items.
+This guide covers how to work directly with your GradeBook—adding students, entering grades, configuring settings, and more. These tasks are done by editing cells in your GradeBook rather than through menu items.
 
 ---
 

@@ -40,9 +40,9 @@ Configure how your GradeBook will calculate grades:
 
 | Type | How It Works |
 |------|--------------|
-| **Standard Weighting** | Each assignment has its own percentage weight. All weights should add up to 100%. |
-| **Category Weighting** | Assignments are grouped into categories (like Homework, Quizzes, Tests). Each category has a weight, and assignments within a category are averaged. |
-| **Total Points** | Simple points-based grading. Total points earned ÷ total possible points = final grade. |
+| **Standard Weighting** | Each assignment has its own percentage weight (for example, Homework 1 = 5%, Quiz 1 = 10%, Test 1 = 20%). All weights should add up to 100%. Best for flexible grading where each assignment has unique importance. |
+| **Category Weighting** | Assignments are grouped into categories (like Homework, Quizzes, Tests). Each category has a weight, and assignments within a category are averaged (for example, Homework = 30%, Quizzes = 30%, Tests = 40%). Best for consistent grading policies across assignment types. |
+| **Total Points** | Simple points-based grading. Total points earned ÷ total possible points = final grade (for example, 450 ÷ 500 = 90%). Best for simple, straightforward grading. |
 
 ### Course Information
 

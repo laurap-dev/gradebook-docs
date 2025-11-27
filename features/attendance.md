@@ -19,7 +19,7 @@ Import and update students from Google Classroom to keep your GradeBook synchron
 
 ## Accessing the Feature
 
-1. Open your GradeBook spreadsheet
+1. Open your GradeBook
 2. Click **Extensions → GradeBook → Import & Attendance → Attendance**
 3. The Attendance sidebar will open
 
