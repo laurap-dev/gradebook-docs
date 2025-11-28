@@ -28,7 +28,7 @@ Send an obfuscated copy of your GradeBook to customer support for assistance. Th
 
 ### Privacy Protection
 
-Your student data is completely protected. GradeBook automatically:
+Your student data is completely protected. GradeBook will automatically:
 
 - Creates a secure copy on your Google Drive
 - Replaces all student data with irreversible encrypted values

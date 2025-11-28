@@ -62,12 +62,12 @@ Displays your sending quotas:
 
 **Send as noreply**: When available, use a no-reply sender address.
 
-### Automatic Reports (Premium Plus)
+### Automatic Reports (Premium)
 
-If you have Premium Plus, this card shows your automatic report sending configuration:
+If you have Premium, this card shows your automatic report sending configuration:
 - Whether automatic reports are enabled
 - Send frequency and schedule
-- Next scheduled send date
+- Whether to notify you when an automatic report is run
 
 ### Report Configuration
   
@@ -106,7 +106,7 @@ If you have Premium Plus, this card shows your automatic report sending configur
   
 **Include Student Number**: Include student ID number in the report header
   
-**Include Logo on Reports** (Premium Plus): Add your uploaded logo to reports
+**Include Logo on Reports** (Premium): Add your uploaded logo to reports
 
 ### Grade Display Settings
   

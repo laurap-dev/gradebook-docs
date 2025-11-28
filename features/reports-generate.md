@@ -122,12 +122,6 @@ Select a date to permanently delete reports created on or before that date.
 
 ---
 
-## Where Reports Are Saved
-
-Reports are saved to a "Reports" folder in your Google Drive, organized by GradeBook.
-
----
-
 ## Related Features
 
 - [Send Reports](reports-send.md) - Email reports to students and guardians

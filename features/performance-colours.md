@@ -6,7 +6,7 @@ nav_order: 13
 description: "Customize colors for different grade ranges in your GradeBook"
 ---
 
-# Performance Colours (Premium)
+# Performance Colors (Premium)
 
 Assign custom colors to different grade ranges so you can quickly see how students are performing at a glance.
 

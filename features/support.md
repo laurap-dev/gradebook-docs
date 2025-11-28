@@ -40,18 +40,13 @@ Displays your current subscription status:
 
 Options to upgrade your subscription. [Purchase or upgrade at Gdev Apps](https://gdev.app/product-page/gradebook-for-google-sheets-and-classroom/){:target="_blank"}.
 
-- **Upgrade to Premium**: Access Performance Colours, Google Classroom import, and more
-- **Upgrade to Premium Plus**: All Premium features plus automatic report sending and custom report logos
+- **Upgrade to Premium**: Access performance colours, automatic import and report sending, custom report logos and more.
 
 ### Advanced Support
 
 For complex issues, you can send a privacy-protected copy of your GradeBook to the support team.
 
 Click **Send Obfuscated GradeBook to Support** to open the [obfuscation tool](obfuscate.md). This replaces student names and sensitive data before sending.
-
-### Contact Support
-
-Click to email the GradeBook support team directly.
 
 ---
 
