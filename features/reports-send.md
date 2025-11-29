@@ -64,10 +64,26 @@ Displays your sending quotas:
 
 ### Automatic Reports (Premium)
 
-If you have Premium, this card shows your automatic report sending configuration:
-- Whether automatic reports are enabled
-- Send frequency and schedule
-- Whether to notify you when an automatic report is run
+{: .important }
+> **Important:** This feature may not work for large GradeBooks and/or non-education accounts (ex. Gmail accounts). Google has imposed a time limitation on generating reports which may cause some users to experience issues.
+>
+> The ideal user would have an education Google account with a maximum of 40 students and 40 assignments.
+>
+> We make no guarantee that this feature will work for your GradeBook.
+
+If you have Premium Plus, this card shows your automatic report sending configuration:
+
+**Terms Agreement**: You must agree to the [Terms of Service](#terms-of-service) before enabling automatic reports.
+
+**Enable Daily Reports**: Toggle to enable/disable automatic daily report generation.
+
+**Day**: Choose the day of the week for automatic reports (Monday through Sunday).
+
+**Time**: Choose the time of day for automatic reports (3:00 AM through 10:00 PM).
+
+**Notify When Completed**: Receive email notifications when automatic reports are completed.
+
+**View Log**: Access the log file showing details of automatic report runs (only available when enabled).
 
 ### Report Configuration
   
@@ -147,6 +163,12 @@ Reports are sent to email addresses configured in your GradeBook:
 - **Column I**: Parent/guardian email addresses
 
 Make sure these columns contain valid email addresses before sending.
+
+---
+
+## Terms of Service
+
+This section contains the terms and conditions for using the Automatic Reports feature.
 
 ---
 
