@@ -33,7 +33,7 @@ docs/
     ├── reset-options.md
     ├── fix-grades.md
     ├── report-logo.md (Premium)
-    ├── performance-colours.md (Premium)
+    ├── performance-colors.md (Premium)
     ├── copy-gradebook.md
     ├── support.md
     └── obfuscate.md

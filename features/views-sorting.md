@@ -96,5 +96,5 @@ If your GradeBook uses Category Weighting, you'll see additional sorting options
 
 ## Related Features
 
-- **[Performance Colours](performance-colours.md)** (Premium): Add colors to grades based on performance levels
+- **[Performance Colors](performance-colors.md)** (Premium): Add colors to grades based on performance levels
 - **[Generate Reports](reports-generate.md)**: Create student reports

@@ -41,7 +41,7 @@ These features require a premium subscription:
 
 - **[Import from CSV](import-csv.md)**: Import grades from CSV files exported from Google Classroom
 - **[Report Logo](report-logo.md)**: Add custom logos to generated reports
-- **[Performance Colours](performance-colours.md)**: Customize color schemes based on grade performance
+- **[Performance Colors](performance-colors.md)**: Customize color schemes based on grade performance
 
 {: .note }
 > Premium features require both a valid license and an active premium subscription. [Purchase or upgrade at Gdev Apps](https://gdev.app/product-page/gradebook-for-google-sheets-and-classroom/){:target="_blank"}.

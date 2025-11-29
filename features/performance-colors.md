@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Performance Colours (Premium)
+title: Performance Colors (Premium)
 parent: Features
 nav_order: 13
 description: "Customize colors for different grade ranges in your GradeBook"
@@ -22,12 +22,12 @@ Assign custom colors to different grade ranges so you can quickly see how studen
 ## Accessing the Feature
 
 1. Open your GradeBook spreadsheet
-2. Click **Extensions → GradeBook → Utilities → Performance Colours**
-3. The Performance Colours sidebar will open
+2. Click **Extensions → GradeBook → Utilities → Performance Colors**
+3. The Performance Colors sidebar will open
 
 ---
 
-## The Performance Colours Menu
+## The Performance Colors Menu
 
 ### Grade Range Colors
 
