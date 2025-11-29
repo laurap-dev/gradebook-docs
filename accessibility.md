@@ -2,6 +2,20 @@
 
 GradeBook includes comprehensive accessibility features that are fully compliant with **WCAG 2.1 AA standards**.
 
+## Documentation Site Accessibility
+
+The GradeBook documentation site also includes accessibility features to ensure all users can comfortably read and navigate the documentation.
+
+### Theme Toggle
+
+A floating accessibility button (♿) is available in the bottom-right corner of every documentation page, allowing you to switch between different visual themes:
+
+- **Default**: Standard theme colors
+- **Dark**: High contrast with white text on black background
+- **Light**: High contrast with black text on white background
+
+Your theme preference is automatically saved and will persist across all documentation pages and future visits.
+
 ## Accessing the Accessibility Settings
 
 To access the accessibility settings:

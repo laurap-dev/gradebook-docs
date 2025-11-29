@@ -76,9 +76,20 @@ Filter which assignments to import:
 | **End import date** | Only import assignments on or before this date (leave blank for all) |
 | **Import date as** | Use due date or creation date when filtering by date range |
 
-### Automatic Imports
+### Automatic Imports (Premium)
 
-If you have a Premium subscription, you can set up automatic imports that run on a schedule without needing to click the Update button.
+Run your Classroom sync on autopilot once everything is linked.
+
+{: .note }
+> You must run **Update Grades from Classroom** at least once after linking a course/topic before the automatic options appear. Automatic imports require an active Premium license.
+
+When the **Automatic Imports** card is visible, you can manage:
+
+- **Enable Daily Imports**: Toggle automatic sync on or off. The card background turns green when enabled and light red when disabled so you can see the current state at a glance.
+- **Notify When Completed**: Optional toggle to receive an email when the scheduled import finishes.
+- **View Log**: Opens the automation log (when available) so you can verify recent runs, timestamps, and outcomes.
+
+If the card shows a message about running a manual import first, click **Update Grades from Classroom** so GradeBook can capture your preferred course/topic before enabling the schedule.
 
 ---
 

@@ -99,6 +99,7 @@ Use the navigation menu on the left to explore:
 - **Features**: Detailed guides for each menu option
 - **FAQ**: Common questions and troubleshooting
 - **Premium Features**: Information about premium functionality
+- **Migration**: Guidance for moving from GradeBook v5 to v6
 
 ---
 
