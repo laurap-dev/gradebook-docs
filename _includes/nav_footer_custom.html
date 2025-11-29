@@ -4,9 +4,7 @@
 
 /* Add bottom padding */
 .jtd-footer { padding-bottom: 40px; }
-</style>
 
-<style>
 #accessibility-toggle-btn {
   position: fixed;
   bottom: 20px;
@@ -37,170 +35,30 @@
 #accessibility-toggle-btn .bi {
   font-size: 1.1rem;
 }
-
-.accessibility-modal {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1050;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.accessibility-modal .modal-dialog {
-  background: white;
-  border-radius: 0.375rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  max-width: 500px;
-  width: 90%;
-  margin: 1.75rem auto;
-}
-
-.accessibility-modal .modal-content {
-  border: none;
-  border-radius: 0.375rem;
-}
-
-.accessibility-modal .modal-header {
-  border-bottom: 1px solid #dee2e6;
-  padding: 1rem 1.5rem;
-}
-
-.accessibility-modal .modal-title {
-  margin: 0;
-  font-size: 1.25rem;
-  font-weight: 500;
-}
-
-.accessibility-modal .btn-close {
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  line-height: 1;
-  color: #6c757d;
-  cursor: pointer;
-  padding: 0;
-  width: 1em;
-  height: 1em;
-}
-
-.accessibility-modal .modal-body {
-  padding: 1rem 1.5rem;
-}
-
-.accessibility-modal .modal-footer {
-  border-top: 1px solid #dee2e6;
-  padding: 1rem 1.5rem;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.accessibility-modal .btn-group {
-  display: flex;
-}
-
-.accessibility-modal .btn-check {
-  display: none;
-}
-
-.accessibility-modal .btn-outline-secondary {
-  border: 1px solid #6c757d;
-  color: #6c757d;
-  background: white;
-  padding: 0.375rem 0.75rem;
-  border-radius: 0.3125rem;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-.accessibility-modal .btn-outline-secondary:hover {
-  background: #6c757d;
-  color: white;
-}
 </style>
 
-<button type="button" id="accessibility-toggle-btn" class="btn" onclick="toggleAccessibilityModal()"
-        aria-label="Open accessibility settings"
-        title="Accessibility Settings">
+<button type="button" id="accessibility-toggle-btn" onclick="toggleTheme()"
+        aria-label="Toggle dark mode"
+        title="Toggle dark mode">
   <i class="bi bi-universal-access" aria-hidden="true"></i>
 </button>
 
-<div class="modal fade accessibility-modal" id="accessibilityModal" tabindex="-1" aria-labelledby="accessibilityModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-sm">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="accessibilityModalLabel">
-          <i class="bi bi-universal-access me-2" aria-hidden="true"></i>Accessibility Settings
-        </h5>
-        <button type="button" class="btn-close" onclick="toggleAccessibilityModal()" aria-label="Close accessibility settings"></button>
-      </div>
-      <div class="modal-body">
-        <p id="accessibilityModalDesc" class="visually-hidden">
-          Configure visual display settings for better accessibility.
-        </p>
-
-        <fieldset class="mb-3">
-          <legend class="form-label fw-semibold mb-2">
-            Color Theme
-            <button type="button" class="btn btn-link btn-sm p-0 ms-1" style="text-decoration: none; vertical-align: baseline;"
-                    data-bs-toggle="tooltip" data-bs-placement="top"
-                    data-bs-title="Choose a color theme that works best for you">
-              <i class="bi bi-question-circle" aria-hidden="true" style="font-size: 0.9rem;"></i>
-            </button>
-          </legend>
-          <div class="btn-group w-100" role="radiogroup" aria-label="Select color theme">
-            <input type="radio" class="btn-check" name="accessibilityTheme" id="themeDefault" value="default" autocomplete="off" onchange="changeTheme('default')">
-            <label class="btn btn-outline-secondary btn-sm" for="themeDefault" style="border-radius: 0.3125rem 0 0 0.3125rem;">
-              Default
-            </label>
-
-            <input type="radio" class="btn-check" name="accessibilityTheme" id="themeDark" value="dark" autocomplete="off" onchange="changeTheme('dark')">
-            <label class="btn btn-outline-secondary btn-sm" for="themeDark" style="border-radius: 0;">
-              Dark
-            </label>
-
-            <input type="radio" class="btn-check" name="accessibilityTheme" id="themeLight" value="light" autocomplete="off" onchange="changeTheme('light')">
-            <label class="btn btn-outline-secondary btn-sm" for="themeLight" style="border-radius: 0 0.3125rem 0.3125rem 0;">
-              Light
-            </label>
-          </div>
-        </fieldset>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-outline-secondary btn-sm" onclick="toggleAccessibilityModal()" style="border-radius: 0.3125rem;">
-          <i class="bi bi-x-lg me-2" aria-hidden="true"></i>Close
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-
 <script>
-function toggleAccessibilityModal() {
-  const modal = document.getElementById('accessibilityModal');
-  modal.style.display = modal.style.display === 'flex' ? 'none' : 'flex';
-}
-
-function changeTheme(theme) {
+function toggleTheme() {
+  const currentTheme = localStorage.getItem('color-scheme') || 'light';
+  const newTheme = currentTheme === 'light' ? 'dark' : 'light';
   // Remove existing color-scheme classes
   document.documentElement.className = document.documentElement.className.replace(/color-scheme-\w+/g, '');
   // Add new
-  document.documentElement.classList.add('color-scheme-' + theme);
+  document.documentElement.classList.add('color-scheme-' + newTheme);
   // Save to localStorage
-  localStorage.setItem('color-scheme', theme);
+  localStorage.setItem('color-scheme', newTheme);
 }
 
 // On load, set theme
 document.addEventListener('DOMContentLoaded', function() {
-  const savedTheme = localStorage.getItem('color-scheme') || 'default'; // default to default
-  changeTheme(savedTheme);
-  // Check the radio button
-  const radio = document.getElementById('theme' + savedTheme.charAt(0).toUpperCase() + savedTheme.slice(1));
-  if (radio) radio.checked = true;
+  const savedTheme = localStorage.getItem('color-scheme') || 'light';
+  document.documentElement.className = document.documentElement.className.replace(/color-scheme-\w+/g, '');
+  document.documentElement.classList.add('color-scheme-' + savedTheme);
 });
 </script>
