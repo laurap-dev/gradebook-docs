@@ -16,9 +16,9 @@ GradeBook has been continuously improved since 2015. Here's what's changed.
 ## 2025
 
 ### Version 6.00
-**Released: November 26, 2025**
+**Released: November 29, 2025**
 
-Latest release with documentation updates.
+Latest release with documentation updates. See the [migration guide](migration.md) for details.
 
 ---
 
