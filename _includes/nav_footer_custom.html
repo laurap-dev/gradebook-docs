@@ -46,17 +46,16 @@
 
 <script>
 function toggleTheme() {
-  const body = document.body;
-  const current = body.className.includes('color-scheme-dark') ? 'dark' : 'light';
-  const newTheme = current === 'light' ? 'dark' : 'light';
-  body.className = body.className.replace(/color-scheme-\w+/g, '');
-  body.classList.add('color-scheme-' + newTheme);
-  localStorage.setItem('theme', newTheme);
+  const currentTheme = localStorage.getItem('color-scheme') || 'light';
+  const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+  document.documentElement.className = document.documentElement.className.replace(/color-scheme-\w+/g, '');
+  document.documentElement.classList.add('color-scheme-' + newTheme);
+  localStorage.setItem('color-scheme', newTheme);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  const saved = localStorage.getItem('theme') || 'light';
-  document.body.className = document.body.className.replace(/color-scheme-\w+/g, '');
-  document.body.classList.add('color-scheme-' + saved);
+  const savedTheme = localStorage.getItem('color-scheme') || 'light';
+  document.documentElement.className = document.documentElement.className.replace(/color-scheme-\w+/g, '');
+  document.documentElement.classList.add('color-scheme-' + savedTheme);
 });
 </script>
