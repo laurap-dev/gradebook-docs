@@ -7,13 +7,23 @@ description: "GradeBook version history and release notes"
 
 # Version History
 
-<!-- LATEST_VERSION: 6.00 -->
+<!-- LATEST_VERSION: 6.02 -->
 
 GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ---
 
 ## 2025
+
+### Version 6.01–6.02
+**Released: November 30, 2025**
+
+- Fixed Google Classroom import issue where renamed assignments could appear twice (original and edited titles)
+- Improved migration of legacy assignment IDs to reduce duplicate columns
+- Updated support guidance for confirming the latest version and cleaning up extra assignments using Roster Manager
+- Fixed a rare "Operation failed" error during Import from Classroom when preparing older GradeBooks for a fresh import (clean slate migration). Affected users just need to confirm they have the latest version under **Extensions → GradeBook → Support → Customer Support & Subscription Details** and then run Import from Classroom again.
+
+---
 
 ### Version 6.00
 **Released: November 29, 2025**
