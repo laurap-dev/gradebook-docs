@@ -7,13 +7,20 @@ description: "GradeBook version history and release notes"
 
 # Version History
 
-<!-- LATEST_VERSION: 6.02 -->
+<!-- LATEST_VERSION: 6.03 -->
 
 GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ---
 
 ## 2025
+
+### Version 6.03
+**Released: December 1, 2025**
+
+- Made the **Refresh Data** button more reliable for very large GradeBooks in both **Generate Reports** and **Send Reports**.
+- Fixed a refresh error that could sometimes stop the process for large classes.
+- Added extra checks so long refreshes are less likely to fail and easier to diagnose if they do.
 
 ### Version 6.01–6.02
 **Released: November 30, 2025**
