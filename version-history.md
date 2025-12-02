@@ -7,13 +7,21 @@ description: "GradeBook version history and release notes"
 
 # Version History
 
-<!-- LATEST_VERSION: 6.05 -->
+<!-- LATEST_VERSION: 6.06 -->
 
 GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ---
 
 ## 2025
+
+### Version 6.06
+**Released: December 1, 2025**
+
+- **Enhanced Import Reliability**: Fixed issues where grade calculations and percentage formulas could be accidentally overwritten during import operations
+- **Automatic Formula Repair**: GradeBook now automatically detects and restores missing grade calculation formulas when importing from Classroom
+- **Improved Migration**: Legacy gradebook migration now properly preserves all calculation formulas
+- **Better Error Recovery**: Enhanced error handling for network issues with improved user guidance
 
 ### Version 6.05
 **Released: December 1, 2025**
