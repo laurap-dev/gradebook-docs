@@ -16,8 +16,9 @@ GradeBook has been continuously improved since 2015. Here's what's changed.
 ## 2025
 
 ### Version 6.06
-**Released: December 1, 2025**
+**Released: December 2, 2025**
 
+- **Fixed Refresh Data Button**: The **Refresh Data** button in **Generate Reports** and **Send Reports** now correctly updates the student list after refreshing
 - **Enhanced Import Reliability**: Fixed issues where grade calculations and percentage formulas could be accidentally overwritten during import operations
 - **Automatic Formula Repair**: GradeBook now automatically detects and restores missing grade calculation formulas when importing from Classroom
 - **Improved Migration**: Legacy gradebook migration now properly preserves all calculation formulas
