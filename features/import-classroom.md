@@ -101,7 +101,49 @@ If the card shows a message about running a manual import first, click **Update 
 
 ---
 
+## Special Codes in Google Classroom Assignment Instructions
+
+You can control how GradeBook handles individual Google Classroom assignments by adding special codes in the **Instructions** section of the assignment. The code can appear anywhere in the instructions.
+
+{: .note }
+> **Important:** Only use `[[` and `]]` for these GradeBook codes. Do **not** use the `[` or `]` characters anywhere else in the instructions text.
+
+### Automatic Categories and Weighting – Category GradeBook
+
+If your GradeBook type is **Category** or **Category with Terms**, you can have GradeBook automatically set the assignment category and weight when you import from Google Classroom.
+
+| GradeBook type      | Code                    | Example              |
+|---------------------|-------------------------|----------------------|
+| Category            | `[[category, weight]]`  | `[[Tests, 20]]`      |
+| Category with Terms | `[[category, weight, term]]` | `[[Tests, 20, Term]]` |
+
+When you import, GradeBook will set the assignment category and weight based on the values in the code. The **category** (and **term**, if used) must match **exactly** the names in your **Settings** sheet.
+
+### Automatic Weighting – Standard GradeBook
+
+If your GradeBook type is **Standard** or **Standard with Terms**, you can have GradeBook automatically set the assignment weight.
+
+| GradeBook type      | Code               | Example           |
+|---------------------|--------------------|-------------------|
+| Standard            | `[[weight]]`       | `[[20]]`          |
+| Standard with Terms | `[[weight, term]]` | `[[20, Term 1]]`  |
+
+When you import, GradeBook will set the assignment weight based on the number you include in the code. If you include a term, its name must match **exactly** the term name in your **Settings** sheet.
+
+### Stop an Assignment from Being Imported
+
+If there is an assignment in Google Classroom that you do **not** want imported into GradeBook, add this code to the instructions:
+
+| GradeBook type | Code          | Example        |
+|----------------|---------------|----------------|
+| All            | `[[ungraded]]`| `[[ungraded]]` |
+
+When you import from Google Classroom, any assignment whose instructions contain `[[ungraded]]` will be skipped and **not** imported into GradeBook.
+
+---
+
 ## Related Features
 
 - **[Import from CSV](import-csv.md)** (Premium): Import from CSV files instead of directly from Google Classroom
 - **[Attendance](attendance.md)**: Sync attendance sheets with your imported roster
+
