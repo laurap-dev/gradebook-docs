@@ -7,13 +7,18 @@ description: "GradeBook version history and release notes"
 
 # Version History
 
-<!-- LATEST_VERSION: 6.08 -->
+<!-- LATEST_VERSION: 6.09 -->
 
 GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ---
 
 ## 2025
+
+### Version 6.09
+**Released: December 4, 2025**
+
+- Fixed an issue with importing grades from Google Classroom under **Extensions → GradeBook → Import from Classroom**
 
 ### Version 6.08
 **Released: December 2, 2025**
