@@ -168,7 +168,14 @@ Make sure these columns contain valid email addresses before sending.
 
 ## Terms of Service
 
-This section contains the terms and conditions for using the Automatic Reports feature.
+By enabling automatic imports, you agree to the terms below for the Automatic Reports feature.
+
+{: .important }
+> This feature may not work for large GradeBooks and/or non-education accounts (ex. Gmail accounts). Google has imposed a time limitation on generating reports which may cause some users to experience issues.
+>
+> The ideal user would have an education Google account with a maximum of 40 students and 40 assignments.
+>
+> We make no guarantee that this feature will work for your GradeBook.
 
 ---
 
