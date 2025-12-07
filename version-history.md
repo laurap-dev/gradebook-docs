@@ -7,13 +7,20 @@ description: "GradeBook version history and release notes"
 
 # Version History
 
-<!-- LATEST_VERSION: 6.11 -->
+<!-- LATEST_VERSION: 6.12 -->
 
 GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ---
 
 ## 2025
+
+### Version 6.12
+**Released: December 7, 2025**
+
+- Fixed issues with unlinking Google Classroom copies
+- Improved performance when sending reports
+- Resolved logo display problems in reports
 
 ### Version 6.11
 **Released: December 5, 2025**
