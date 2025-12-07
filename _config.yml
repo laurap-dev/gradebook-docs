@@ -11,6 +11,9 @@ baseurl: ""
 just_the_docs:
   hide_attribution: true
 
+exclude:
+  - technical/
+
 # Enable auxiliary links
 aux_links:
   "Gdev Apps": https://gdev.app/
