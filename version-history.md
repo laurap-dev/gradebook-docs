@@ -7,13 +7,20 @@ description: "GradeBook version history and release notes"
 
 # Version History
 
-<!-- LATEST_VERSION: 6.13 -->
+<!-- LATEST_VERSION: 6.14 -->
 
 GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ---
 
 ## 2025
+
+### Version 6.14
+**Released: December 9, 2025**
+
+- Improved Google Classroom import to only include assignments from the selected date range, while keeping existing gradebook data intact.
+- Added better checks when copying gradebooks that use categories to ensure categories are set up correctly.
+- Fixed various issues to make the app more stable.
 
 ### Version 6.13
 **Released: December 8, 2025**
