@@ -96,7 +96,6 @@ If the card shows a message about running a manual import first, click **Update 
 ## Tips
 
 - **Import regularly**: Run an update weekly or whenever you grade new assignments in Google Classroom
-- **Grade in one place**: Decide whether Google Classroom or GradeBook is your "source of truth" for grades. Grades in GradeBook will be overwritten on the next import.
 - **Check your weights**: After importing, make sure all assignments have weights assigned (for Standard Weighting) or are in the correct category (for Category Weighting)
 
 ---
@@ -118,6 +117,41 @@ If your GradeBook type is **Category** or **Category with Terms**, you can have 
 | Category with Terms | `[[category, weight, term]]` | `[[Tests, 20, Term]]` |
 
 When you import, GradeBook will set the assignment category and weight based on the values in the code. The **category** (and **term**, if used) must match **exactly** the names in your **Settings** sheet.
+
+### Category Priority (Category GradeBook)
+
+When you use a **Category** GradeBook, you will also see a **Category Priority** card in the Google Classroom import sidebar. This card controls which source GradeBook listens to first when more than one place could provide a category for the same assignment.
+
+The three options you can reorder are:
+
+- **Import Code**  
+  Uses the special code in the assignment instructions (for example `[[Tests, 20]]`).  
+  If this is at the top of the list, the code in the instructions decides the category (and weight) whenever it contains a valid category.
+
+- **Classroom category**  
+  Uses the assignment’s category from Google Classroom (the **Grade Category** name you choose when you create the assignment in Classroom).  
+  If this is listed first, Classroom’s category wins whenever it matches a category in your GradeBook’s **Settings** sheet.
+
+- **Existing GradeBook category**  
+  Uses whatever category is already in your GradeBook header row for that assignment.  
+  If this is first, GradeBook keeps the category that is already on the GradeBook sheet unless it is no longer a valid category.
+
+**How the order works in practice**
+
+For each Classroom assignment that is imported into a Category GradeBook, GradeBook checks the options from **top to bottom** in the Category Priority list:
+
+1. Start with the first item in the list (for example, **Import Code**).  
+   - If that source can provide a valid category (one that exists in the **Settings** sheet), GradeBook uses it and stops.  
+   - If not, it moves on to the next item.
+2. Repeat with the next source until one provides a valid category.
+3. If none of the sources can provide a valid category, the category for that assignment is left blank.
+
+Some important details:
+
+- GradeBook only writes category names that already exist in the **Settings** sheet.  
+  If an old or mistyped category name is found (from a code, from Classroom, or from an existing header), it is treated as blank instead of causing an error.
+- Assignments marked with `[[ungraded]]` are skipped entirely and do **not** use the Category Priority rules.
+- After you change the order in the Category Priority card, click **Save Order** so your changes are stored for that GradeBook.
 
 ### Automatic Weighting – Standard GradeBook
 
