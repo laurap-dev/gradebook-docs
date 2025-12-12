@@ -7,7 +7,7 @@ description: "GradeBook version history and release notes"
 
 # Version History
 
-<!-- LATEST_VERSION: 6.15 -->
+<!-- LATEST_VERSION: 6.16 -->
 
 GradeBook has been continuously improved since 2015. Here's what's changed.
 
@@ -15,17 +15,21 @@ GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ## 2025
 
+### Version 6.16
+**Released: December 12, 2025**
+
+- Fixed **Extensions → GradeBook → Import → Copy GradeBook**, **Extensions → GradeBook → Create New GradeBook**, and **Extensions → GradeBook → Fix Grades** to preserve assignment headings.
+
+### Version 6.15
+**Released: December 10, 2025**
+
+- Added options to configure category priorities during imports.
 ### Version 6.14
 **Released: December 9, 2025**
 
 - Improved Google Classroom import to only include assignments from the selected date range, while keeping existing gradebook data intact.
 - Added better checks when copying gradebooks that use categories to ensure categories are set up correctly.
 - Fixed various issues to make the app more stable.
-
-### Version 6.15
-**Released: December 10, 2025**
-
-- Added options to configure category priorities during imports.
 
 ### Version 6.13
 **Released: December 8, 2025**
