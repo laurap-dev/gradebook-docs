@@ -51,7 +51,6 @@ function exampleListCourseWorkWithCategories(courseId) {
     var cw = items[i];
     var cat = cw && cw.gradeCategory;
     var categoryName = (cat && cat.name) ? cat.name : '';
-    Logger.log('CourseWork "%s" category: %s', cw && cw.title, categoryName || '(none)');
   }
 }
 ```
