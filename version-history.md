@@ -23,7 +23,9 @@ GradeBook has been continuously improved since 2015. Here's what's changed.
 ### Regarding menus not loading:
 We are aware that many users are experiencing difficulties with the GradeBook menu not loading or taking multiple attempts to open. We understand how frustrating this can be and sincerely apologize for the inconvenience. This issue is affecting all Google Workspace add-ons due to recent changes by Google and is unfortunately beyond our direct control.
 
-We strongly encourage you to click the **+1** button on the [issue tracker](https://issuetracker.google.com/issues/467297229){:target="_blank"} to help prioritize a fix:
+We strongly encourage you to click the **+1** button on the issue tracker to help prioritize a fix:
+
+[Issue Tracker](https://issuetracker.google.com/issues/467297229){: .btn .btn-purple target="_blank"}
 
 [![Issue 467297229](img/467297229.png)](img/467297229.png)
 
