@@ -7,7 +7,7 @@ description: "GradeBook version history and release notes"
 
 # Version History
 
-<!-- LATEST_VERSION: 6.18 -->
+<!-- LATEST_VERSION: 6.19 -->
 
 GradeBook has been continuously improved since 2015. Here's what's changed.
 
@@ -15,10 +15,21 @@ GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ## 2025
 
-### Version 6.17–6.18
-**Released: December 15, 2025**
+### Version 6.17–6.19
+**Released: December 16, 2025**
 
 - General bug fixes.
+
+### Regarding menus not loading:
+We are aware that many users are experiencing difficulties with the GradeBook menu not loading or taking multiple attempts to open. We understand how frustrating this can be and sincerely apologize for the inconvenience. This issue is affecting all Google Workspace add-ons due to recent changes by Google and is unfortunately beyond our direct control.
+
+We strongly encourage you to click the **+1** button on the issue tracker to help prioritize a fix:
+https://issuetracker.google.com/issues/467297229
+
+[![Issue 467297229](img/467297229.png)](img/467297229.png)
+
+**Temporary Workaround:**
+If the menu fails to load, please refresh your GradeBook page (**F5** on Windows, **Command + R** on Mac) and try again.
 
 ### Version 6.16
 **Released: December 12, 2025**
