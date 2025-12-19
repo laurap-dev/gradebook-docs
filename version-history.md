@@ -7,13 +7,20 @@ description: "GradeBook version history and release notes"
 
 # Version History
 
-<!-- LATEST_VERSION: 6.23 -->
+<!-- LATEST_VERSION: 6.24 -->
 
 GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ---
 
 ## 2025
+
+### Version 6.24
+**Released: December 19, 2025**
+
+- **New Feature**: List View is now available in **Extensions → GradeBook → Reports → Send Reports**.
+
+![Send Reports List View](img/347563.png)
 
 ### Version 6.23
 **Released: December 18, 2025**
