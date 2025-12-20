@@ -7,13 +7,18 @@ description: "GradeBook version history and release notes"
 
 # Version History
 
-<!-- LATEST_VERSION: 6.24 -->
+<!-- LATEST_VERSION: 6.25 -->
 
 GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ---
 
 ## 2025
+
+### Version 6.25
+**Released: December 20, 2025**
+
+- General bug fixes and stability improvements.
 
 ### Version 6.24
 **Released: December 19, 2025**
