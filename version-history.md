@@ -15,17 +15,17 @@ GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ## 2025
 
-### Version 6.25
-**Released: December 20, 2025**
-
-- General bug fixes and stability improvements.
-
 ### Version 6.26
 **Released: December 23, 2025**
 
 - Improved reliability when importing attendance sheets.
 - Fixed an issue where copying a gradebook could fail due to column mismatches.
 - Enhanced error messages in automatic import and report features for better troubleshooting.
+
+### Version 6.25
+**Released: December 20, 2025**
+
+- General bug fixes and stability improvements.
 
 ### Version 6.24
 **Released: December 19, 2025**
