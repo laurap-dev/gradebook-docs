@@ -7,7 +7,7 @@ description: "GradeBook version history and release notes"
 
 # Version History
 
-<!-- LATEST_VERSION: 6.28 -->
+<!-- LATEST_VERSION: 6.29 -->
 
 GradeBook has been continuously improved since 2015. Here's what's changed.
 
@@ -15,10 +15,11 @@ GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ## 2025
 
-### Version 6.28
-**Released: December 27, 2025**
+### Version 6.29
+**Released: December 28, 2025**
 
-- General bug fixes and stability improvements.
+- Assignments with zero weight are now excluded from student reports in category and standard-based GradeBooks, ensuring they don't appear in assignment tables or affect displayed grades.
+- Fixed error message display in report generation to show specific error details instead of generic "Operation failed" messages.
 
 ### Version 6.27
 **Released: December 24, 2025**
