@@ -7,13 +7,18 @@ description: "GradeBook version history and release notes"
 
 # Version History
 
-<!-- LATEST_VERSION: 6.34 -->
+<!-- LATEST_VERSION: 6.35 -->
 
 GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ---
 
 ## 2026
+
+### Version 6.35
+**Released: January 6, 2026**
+
+- Fixed an issue where custom grades with bracket notation (such as 8 [10]) were displaying incorrectly in reports.
 
 ### Version 6.30 - 6.34
 **Released: January 2, 2026**
