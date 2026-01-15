@@ -1,0 +1,23 @@
+[PERMISSION_ERROR], 2026-Jan-02 11:04:12 PM, User Email: user@example.com, Function: fetchRecordFromFirebase, GradeBook Version: v6.32, GradeBook Dev Version: v6.273, Error: You do not have permission to call UrlFetchApp.fetch. Required permissions: https://www.googleapis.com/auth/script.external_request. For more information, see https://developers.google.com/apps-script/guides/support/troubleshooting#authorization-is, Stack Trace: Exception: You do not have permission to call UrlFetchApp.fetch. Required permissions: https://www.googleapis.com/auth/script.external_request. For more information, see https://developers.google.com/apps-script/guides/support/troubleshooting#authorization-is
+    at fetchWithRetry (license/licenseUtilities:240:40)
+    at fetchRecordFromFirebase (license/licenseUtilities:259:22)
+    at checkSchoolLicense (license/licenseUtilities:97:24)
+    at safeLicenseCheck (license/licenseUtilities:4:20)
+    at checkFirebaseLicense (license/licenseUtilities:28:27)
+    at validateLicense (license/licenseChecks:17:29)
+    at updateLicenseInfo (config/configGlobalHelpers:40:29)
+    at getOptimizedGlobalConfig (config/utilities:61:28)
+    at configMerged (config/configMerged:173:25)
+    at loadMenu (loadMenus/core/menuSystem:6:14)
+
+    [PERMISSION_ERROR], 2026-Jan-02 11:04:12 PM, User Email: user@example.com, Function: checkFirebaseLicense, GradeBook Version: v6.32, GradeBook Dev Version: v6.273, Error: You do not have permission to call UrlFetchApp.fetch. Required permissions: https://www.googleapis.com/auth/script.external_request. For more information, see https://developers.google.com/apps-script/guides/support/troubleshooting#authorization-is, Stack Trace: Exception: You do not have permission to call UrlFetchApp.fetch. Required permissions: https://www.googleapis.com/auth/script.external_request. For more information, see https://developers.google.com/apps-script/guides/support/troubleshooting#authorization-is
+    at fetchWithRetry (license/licenseUtilities:240:40)
+    at fetchRecordFromFirebase (license/licenseUtilities:259:22)
+    at checkSchoolLicense (license/licenseUtilities:97:24)
+    at safeLicenseCheck (license/licenseUtilities:4:20)
+    at checkFirebaseLicense (license/licenseUtilities:28:27)
+    at validateLicense (license/licenseChecks:17:29)
+    at updateLicenseInfo (config/configGlobalHelpers:40:29)
+    at getOptimizedGlobalConfig (config/utilities:61:28)
+    at configMerged (config/configMerged:173:25)
+    at loadMenu (loadMenus/core/menuSystem:6:14)
