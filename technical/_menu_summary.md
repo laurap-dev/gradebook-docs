@@ -32,7 +32,8 @@ This document summarizes all menu items and non-menu UI elements in the GradeBoo
 | Not a GradeBook | loadMenus/notGradeBook/server/notGradeBook.js | loadMenus/notGradeBook/server/notGradeBook.js |
 | License Expired | _init/purchase/server/purchase.js | - |
 
-### Implement Logging for Menu Load and Start Functions (Server-Side)
+
+### Implement Logging for Menu Load and Start Functions (Server-Side only)
 
 Use the `logEntry` function from `sharedFunctions/unifiedLogs.js` to log menu operations at the [INFO] level.
 
@@ -80,3 +81,10 @@ function logMenuEvent(menuName, eventType, functionName, safeGradeBookId = null)
   }
 }
 ```
+
+## Change Summary (Jan 14, 2026)
+
+- Added a shared menu logging helper that standardizes menu event messages, normalizes GradeBook IDs, and uses `logEntry` at the [INFO] level.
+- Logged menu load completion in the universal menu loader so all menu sidebars record a `loaded` event with consistent menu names.
+- Added `started` and `completed` menu event logging to server-side start functions for Create, Views & Sorting, Import, Attendance, CSV Import, Generate Reports, Send Reports, Reset Options, Fix Grades, Report Logo, Performance Colors, Copy GradeBook, and Obfuscate flows.
+- Added `started` and `completed` menu event logging to Roster Manager operations (add/delete students, add/delete assignments, refresh roster data).
