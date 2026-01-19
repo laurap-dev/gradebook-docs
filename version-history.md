@@ -7,13 +7,18 @@ description: "GradeBook version history and release notes"
 
 # Version History
 
-<!-- LATEST_VERSION: 6.40 -->
+<!-- LATEST_VERSION: 6.41 -->
 
 GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ---
 
 ## 2026
+
+### Version 6.41
+**Released: January 19, 2026**
+
+- Added a new "Maximum Time" menu option under Support that lets you find out the maximum run time for GradeBook actions on your Google account. This helps ensure long-running operations like reports and imports complete successfully.
 
 ### Version 6.39 - 6.40
 **Released: January 17, 2026**
