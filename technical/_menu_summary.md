@@ -22,7 +22,7 @@ This document summarizes all menu items and non-menu UI elements in the GradeBoo
 | Performance Colors | performanceColours/load/pageLoad.js | performanceColours/start/start.js |
 | Copy GradeBook | loadMenus/core/menuSystem.js | copyGradeBook/start/start.js |
 | Customer Support & Subscription Details | support/server/pageLoad.js | 'no action in menu' |
-| Maximum Time | sharedFunctions/maxExecutionTime.js | sharedFunctions/maxExecutionTime.js |
+| Maximum Time | maximumTime/load/pageLoad.js | 'no action in menu' |
 | Send Obfuscated GradeBook | loadMenus/core/menuSystem.js | obfuscate/start/start.js |
 
 ### Non-Menu Items

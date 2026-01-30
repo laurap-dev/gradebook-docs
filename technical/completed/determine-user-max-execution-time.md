@@ -20,8 +20,8 @@ Helps users find their Google account's maximum allowed time for GradeBook actio
 | File | Purpose |
 |------|---------|
 | `sharedFunctions/maxExecutionTime.js` | Core server functions |
-| `support/client/maxTimeScript.html` | Client-side sidebar logic |
-| `support/client/maxTime.html` | Sidebar UI template |
+| `maximumTime/client/maxTimeScript.html` | Client-side sidebar logic |
+| `maximumTime/client/maxTime.html` | Sidebar UI template |
 | `loadMenus/core/menuEntryPoints.js` | Menu handler to open sidebar |
 
 ## Storage & Sharing
