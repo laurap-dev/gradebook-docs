@@ -7,13 +7,19 @@ description: "GradeBook version history and release notes"
 
 # Version History
 
-<!-- LATEST_VERSION: 6.44 -->
+<!-- LATEST_VERSION: 6.45 -->
 
 GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ---
 
 ## 2026
+
+### Version 6.45
+**Released: February 1, 2026**
+
+- Fixed issues with attendance formula restoration in the Fix Grades feature, ensuring formulas are properly restored without overwriting existing data.
+- Improved detection of attendance sheets and added better logging for troubleshooting.
 
 ### Version 6.44
 **Released: January 29, 2026**
