@@ -7,13 +7,18 @@ description: "GradeBook version history and release notes"
 
 # Version History
 
-<!-- LATEST_VERSION: 6.46 -->
+<!-- LATEST_VERSION: 6.47 -->
 
 GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ---
 
 ## 2026
+
+### Version 6.47
+**Released: February 4, 2026**
+
+- When a report has assignments missing dates, you can now choose current date for each assignment (or leave it blank) before continuing.
 
 ### Version 6.46
 **Released: February 2, 2026**
