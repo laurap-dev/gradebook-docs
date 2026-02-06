@@ -7,7 +7,7 @@ description: "GradeBook version history and release notes"
 
 # Version History
 
-<!-- LATEST_VERSION: 6.48 -->
+<!-- LATEST_VERSION: 6.29 -->
 
 GradeBook has been continuously improved since 2015. Here's what's changed.
 
@@ -15,85 +15,27 @@ GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ## 2026
 
-### Version 6.48
+### Version 6.29
 **Released: February 5, 2026**
 
 - Improved error and warning messages.
 - Improved save settings in all menus.
 
-### Version 6.47
-**Released: February 4, 2026**
+### Version 6.28.001 - 6.28.049
+**Released: January 2, 2026 - February 4, 2026**
 
 - When a report has assignments missing dates, you can now choose current date for each assignment (or leave it blank) before continuing.
-
-### Version 6.46
-**Released: February 2, 2026**
-
-- Minor improvements and bug fixes.
-
-### Version 6.45
-**Released: February 1, 2026**
-
 - Fixed issues with attendance formula restoration in the Fix Grades feature, ensuring formulas are properly restored without overwriting existing data.
 - Improved detection of attendance sheets and added better logging for troubleshooting.
-
-### Version 6.44
-**Released: January 29, 2026**
-
-- Minor improvements and bug fixes.
-
-### Version 6.43
-**Released: January 25, 2026**
-
-- Improved error handling.
-
-### Version 6.42
-**Released: January 22, 2026**
-
-- Minor improvements and bug fixes.
-
-### Version 6.41
-**Released: January 19, 2026**
-
 - Added a new "Maximum Time" menu option under Support that lets you find out the maximum run time for GradeBook actions on your Google account. This helps ensure long-running operations like reports and imports complete successfully.
-
-### Version 6.39 - 6.40
-**Released: January 17, 2026**
-
-- General bug fixes.
-
-### Version 6.38
-**Released: January 15, 2026**
-
-- Fixed an issue where menus were not loading properly.
-
-### Version 6.37
-**Released: January 15, 2026**
-
 - Improved license validation to ensure accurate subscription status display.
-
-### Version 6.36
-**Released: January 9, 2026**
-
-- Fixed license validation.
-
-### Version 6.35
-**Released: January 6, 2026**
-
 - Fixed an issue where custom grades with bracket notation (such as 8 [10]) were displaying incorrectly in reports.
-
-### Version 6.30 - 6.34
-**Released: January 2, 2026**
-
-- General bug fixes and improvements.
-
-## 2025
-
-### Version 6.29
-**Released: December 28, 2025**
-
 - Assignments with zero weight are now excluded from student reports in category and standard-based GradeBooks, ensuring they don't appear in assignment tables or affect displayed grades.
 - Fixed error message display in report generation to show specific error details instead of generic "Operation failed" messages.
+
+---
+
+## 2025
 
 ### Version 6.27
 **Released: December 24, 2025**
