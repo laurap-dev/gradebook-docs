@@ -20,7 +20,6 @@ GradeBook has been continuously improved since 2015. Here's what's changed.
 
 - Improved license validation and general bug fixes.
 - Fixed a license refresh issue in **Extensions → GradeBook → Purchase/Renew** so the **Refresh license** button updates status more reliably.
-- Improved how GradeBook restores or clears final grade formulas after license status changes in **Support**, **Purchase/Renew**, and scheduled maintenance flows.
 
 ### Version 6.29
 **Released: February 5, 2026**
