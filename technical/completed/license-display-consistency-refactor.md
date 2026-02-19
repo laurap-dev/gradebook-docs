@@ -43,3 +43,19 @@ Files:
 
 ## Notable example fixed
 - `formatLicenseType` in `loadMenus/upgrade/upgradeToPremium.html` previously returned bracketed labels (e.g., "School [Premium]") while other sidebars had been updated. This now returns "School Premium", "Lifetime Premium", etc., to keep the UI consistent.
+
+## Follow-up: School/domain naming standard (v6.30 dev 398)
+- Standardized school-domain labels across user cards to always include tier + term:
+  - `School Premium Annual`
+  - `School Standard Annual`
+  - `School Premium Lifetime`
+  - `School Standard Lifetime`
+  - Expired school-domain labels use ` [Expired]` suffix (annual form).
+- Updated license test matrix in `scripts/license-testing/license_testing.py` to the 6 supported domain cases and aligned display expectations to the school naming standard.
+
+Files:
+- `support/client/supportScript.html`
+- `_init/purchase/client/purchaseScript.html`
+- `loadMenus/upgrade/upgradeToPremium.html`
+- `loadMenus/core/menuHelpers.js`
+- `scripts/license-testing/license_testing.py`
