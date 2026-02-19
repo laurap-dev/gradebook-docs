@@ -18,7 +18,7 @@ Actions to take when implementing:
 
 ---
 
-## Implementation completed
+## Implementation completed (Phase 1 — legacy constant removal)
 
 ### What was implemented
 - Removed all runtime branching that used legacy Firebase constants (`FIREBASE_URL_LT`, `SECRET_GB_LT`) in app license utilities.
@@ -54,4 +54,32 @@ Actions to take when implementing:
 
 ### Verification
 - Repository grep checks for `FIREBASE_URL_LT`, `SECRET_GB_LT`, `FIREBASE_DATABASE_URL_LT`, and `FIREBASE_DATABASE_SECRET_LT` in JS/Python source now return no results.
+
+---
+
+## Implementation completed (Phase 2 — proxy migration, dev version 411)
+
+### What was implemented
+- Removed `FIREBASE_URL` and `FIREBASE_SECRET` constants from `_init/constants/secrets.js`.
+- All Firebase RTDB access now goes through the Cloud Run proxy (`firebase-proxy` in `us-central1`).
+- Apps Script reads `PROXY_SHARED_KEY` and `PROXY_URL` from Script Properties (not source code).
+- Deleted `firebase/firebaseApp.js` (third-party FirebaseApp library — no longer needed since all Firebase access is via proxy).
+- Deleted `scripts/google-cloud/gdev-all-apps-ttff-firebase-adminsdk-gas9r-40d974aa6b.json` (service account key no longer needed).
+- Deleted `scripts/google-cloud/google-cloud-details.md` (replaced by proxy doc).
+
+### Files changed (Phase 2)
+1. `_init/constants/secrets.js` — removed `FIREBASE_URL` + `FIREBASE_SECRET`
+2. `license/licenseUtilities.js` — added `callFirebaseProxy_()` helper; rewrote `fetchRecordFromFirebase()`, `createTrialRecordInFirebase()`, `updateTrialRecordWithId()`, `updateFirebaseSmsUsageReports()` to use proxy
+3. `scripts/secrets_config.py` — removed all Firebase secrets; added `PROXY_URL` + `PROXY_SHARED_KEY`
+4. `scripts/license-testing/license_testing.py` — rewrote to use proxy endpoints
+5. `scripts/license-look-up/license_lookup.py` — rewrote to use proxy endpoints
+
+### Files deleted (Phase 2)
+- `firebase/firebaseApp.js`
+- `scripts/google-cloud/gdev-all-apps-ttff-firebase-adminsdk-gas9r-40d974aa6b.json`
+- `scripts/google-cloud/google-cloud-details.md`
+
+### Verification
+- Repository grep for `FIREBASE_SECRET` in JS/Python source returns no results.
+- No hardcoded Firebase database secrets remain in the codebase.
 
