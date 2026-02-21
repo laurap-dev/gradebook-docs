@@ -7,13 +7,18 @@ description: "GradeBook version history and release notes"
 
 # Version History
 
-<!-- LATEST_VERSION: 6.33 -->
+<!-- LATEST_VERSION: 6.34 -->
 
 GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ---
 
 ## 2026
+
+### Version 6.34
+**Released: February 21, 2026**
+
+- Added batch processing for large classes — reports can now be generated and sent in smaller groups to avoid timeouts, with the option to continue or stop between batches.
 
 ### Version 6.31-6.33
 **Released: February 19, 2026**
