@@ -7,13 +7,19 @@ description: "GradeBook version history and release notes"
 
 # Version History
 
-<!-- LATEST_VERSION: 6.35 -->
+<!-- LATEST_VERSION: 6.36 -->
 
 GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ---
 
 ## 2026
+
+### Version 6.36
+**Released: February 23, 2026**
+
+- General bug fixes and stability improvements.
+- Fixed an issue in **Extensions → GradeBook → Support → Send Obfuscated GradeBook**
 
 ### Version 6.34 - 6.35
 **Released: February 21, 2026**
