@@ -40,10 +40,10 @@ Assuming no `licenseStatus` error override:
 - `licenseType` is `trial` or starts with `trial_` (or `school_trial`) → `Free Trial`
 
 ### School/domain
-- `isDomainUser=true`, `isPremium=true`, valid + lifetime hint/flag → `School Premium Lifetime`
-- `isDomainUser=true`, `isPremium=false`, valid + lifetime hint/flag → `School Standard Lifetime`
-- `isDomainUser=true`, any premium tier, valid non-lifetime → `School <Tier> Annual`
-- `isDomainUser=true`, expired/invalid → `School <Tier> Annual [Expired]`
+- `isDomain=true`, `isPremium=true`, valid + lifetime hint/flag → `School Premium Lifetime`
+- `isDomain=true`, `isPremium=false`, valid + lifetime hint/flag → `School Standard Lifetime`
+- `isDomain=true`, any premium tier, valid non-lifetime → `School <Tier> Annual`
+- `isDomain=true`, expired/invalid → `School <Tier> Annual [Expired]`
 
 Notes:
 - For school labels, term uses runtime validity + lifetime signal:
