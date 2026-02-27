@@ -8,7 +8,7 @@ description: "Sync attendance sheets with Google Classroom data"
 
 # Attendance
 
-Import and update students from Google Classroom to keep your GradeBook synchronized. This feature updates the student names in your attendance sheets to match your GradeBook roster.
+Import and update students from Google Classroom to keep your GradeBook synchronized. Attendance works only with Google Classroom rosters and copies your student names into monthly attendance sheets.
 
 ## Requirements
 
@@ -17,72 +17,58 @@ Import and update students from Google Classroom to keep your GradeBook synchron
 - **Premium**: ❌ Not required
 - **Google Classroom Link**: ✅ Required (set up through Import)
 
-## Accessing the Feature
+## Quick Start (set up + sync)
 
-1. Open your GradeBook
-2. Click **Extensions → GradeBook → Import & Attendance → Attendance**
-3. The Attendance sidebar will open
+1. **Link to Google Classroom (required)**
+   - Go to **Extensions → GradeBook → Import & Attendance → Import from Google Classroom**
+   - Choose your class and import settings, then click **Import**. This creates/updates your GradeBook roster.
+2. **Open Attendance**
+   - Go to **Extensions → GradeBook → Import & Attendance → Attendance**. The sidebar opens.
+3. **Create attendance sheets (first time only)**
+   - If prompted, pick **Start Month/Year** and **End Month/Year** and click **Create Attendance Sheets**.
+4. **Sync the roster to attendance sheets**
+   - In the Attendance sidebar, select the months to update, then click **Update Attendance Data**. This fills each attendance sheet with the same students as your GradeBook.
+5. **Re-sync after roster changes**
+   - If you add/drop students in Classroom, return to **Attendance** and click **Update Attendance Data** again so the sheets stay in sync.
 
 {: .note }
 > If your GradeBook isn't linked to Google Classroom yet, the sidebar will automatically redirect you to the Import menu to set up the connection.
 
+## How to take attendance (in the sheets)
+
+1. Open any **Attendance - Month** sheet.
+2. **Pick the date** in row 2 (e.g., 1-Feb-2026). You can change it to past or future dates; the sheet will jump to that column.
+3. Use the **dropdown in row 2** for quick all-student actions:
+   - **ALL PRESENT**, **ALL EXCUSED ABSENCE**, **ALL UNEXCUSED ABSENCE**, **ALL LATE**, **CLEAR ALL** apply to every student for that date.
+4. Or set **individual students**:
+   - Double-click a student cell and choose **P (Present)**, **L (Late)**, **A (Excused Absence)**, or **U (Unexcused Absence)**.
+5. **Checkbox shortcuts** (row 3, columns D–G): tick to apply the same all-student actions as the dropdown for the date in row 2.
+6. **Resizing rows/columns** is safe (e.g., to fit photos); the warning is just to prevent accidental edits.
+
 ---
 
-## The Attendance Menu
+## The Attendance Menu (what you’ll see)
 
-### Linked Classroom
+### When attendance is not set up
 
-If your GradeBook is linked to Google Classroom, you'll see which course and topic(s) it's connected to.
+- Fields: **Start Month/Year** and **End Month/Year** control the date range for created sheets.
+- Buttons:
+  - **Create Attendance Sheets**: generates monthly attendance sheets for the selected range.
+  - **Open Create GradeBook**: opens Create GradeBook if you prefer making a new file with attendance included.
 
-### Attendance Not Set Up
+### When attendance is set up
 
-If your GradeBook doesn't have attendance sheets yet, you'll see options to create them:
+- Month selector buttons: **Select All** / **Deselect All** for attendance months.
+- **Update Attendance Data**: syncs the roster from your GradeBook into the selected attendance sheets so they match your current Classroom-linked roster.
 
-| Field | Description |
-|-------|-------------|
-| **Start Month / Start Year** | When your course begins |
-| **End Month / End Year** | When your course ends |
-
-| Button | What It Does |
-|--------|--------------|
-| **Create Attendance Sheets** | Creates monthly attendance sheets for your selected date range |
-| **Open Create GradeBook** | Opens the Create GradeBook menu if you prefer to create a new GradeBook with attendance included |
-
-### Attendance Data
-
-If your GradeBook already has attendance sheets, you'll see a list of available months to select:
-
-| Button | What It Does |
-|--------|--------------|
-| **Select All** | Selects all attendance months |
-| **Deselect All** | Clears all selections |
+{: .note }
+> Select at least one attendance month to enable **Update Attendance Data**.
 
 ### Important Notes
 
-Keep these points in mind when using attendance sync:
-
-- Students updated in **Google Classroom** will be updated in your **GradeBook**
-- Students added manually to this **GradeBook** will not be transferred to **Google Classroom**
-- Manual students **will be overwritten** after the next Google Classroom import
-
-### Update From Classroom
-
-| Button | What It Does |
-|--------|--------------|
-| **Update Attendance Data** | Syncs student names from your GradeBook to the selected attendance sheets. This ensures the attendance sheets have the same students as your main GradeBook. |
-
-{: .note }
-> Select at least one attendance month to enable the Update button.
-
----
-
-## How It Works
-
-The Attendance feature synchronizes student names between your main GradeBook sheet and your monthly attendance sheets:
-
-1. When you import students from Google Classroom, they're added to your GradeBook
-2. The Attendance feature copies those student names to your attendance sheets
-3. This keeps your attendance sheets in sync with your current roster
+- Attendance requires a Classroom link and uses that roster.
+- Students updated in **Google Classroom** flow into your **GradeBook** and then into your attendance sheets when you click **Update Attendance Data**.
+- Students added manually to this **GradeBook** do **not** go back to Classroom and will be overwritten on the next Classroom import.
 
 ---
 
