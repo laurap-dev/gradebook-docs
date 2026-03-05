@@ -78,7 +78,7 @@ function logMenuEvent(menuName, eventType, functionName, safeGradeBookId = null)
     logEntry({ message, functionName, safeGradeBookId, level: 'info' });
   } catch (err) {
     // Logging failure should not interrupt operations; minimal error output if needed
-    console.error(`Menu logging failed for ${menuName}: ${err?.message || 'Unknown error'}`);
+    console.error(`Menu logging failed for ${menuName}: ${err.message || 'Unknown error'}`);
   }
 }
 ```
