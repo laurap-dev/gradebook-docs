@@ -7,13 +7,18 @@ description: "GradeBook version history and release notes"
 
 # Version History
 
-<!-- LATEST_VERSION: 6.50 -->
+<!-- LATEST_VERSION: 6.51 -->
 
 GradeBook has been continuously improved since 2015. Here's what's changed.
 
 ---
 
 ## 2026
+
+### Version 6.51
+**Released: April 22, 2026**
+- Fixed an issue where importing grades from Google Classroom could fail if a student had recently dropped or been removed from the class. The import will now retry automatically and complete successfully.
+- Fixed an issue in Roster Manager where deleting a student could leave their student number (or photo) visible in the GradeBook even after deletion.
 
 ### Version 6.50
 **Released: April 20, 2026**
