@@ -1,5 +1,7 @@
 # PR Review
 
+> **This is a reusable process document.** It defines the standard workflow for reviewing and resolving PR comments. It is not specific to any single PR.
+
 Review and implement all open reviewer comments on the current branch's PR (from all reviewers including Copilot, Sentry, and any other automated or human reviewers), then resolve each thread.
 
 ## Flow
